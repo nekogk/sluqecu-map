@@ -63,7 +63,7 @@
   {"id": "sluqecu_metro_142", "rank": "b", "icon": "subway", "coords": [48281, 31784], "names": {"ro": "北畴区庁駅", "en": "Pijizu Ward Office Station"}},
   {"id": "sluqecu_metro_143", "rank": "c", "icon": "subway", "coords": [47726, 31467], "names": {"ro": "冬好駅", "en": "Rihajico Station"}},
   {"id": "sluqecu_metro_145", "rank": "c", "icon": "subway", "coords": [46680, 30395], "names": {"ro": "遊読駅", "en": "Cesezema Station"}},
-  {"id": "sluqecu_metro_146", "rank": "c", "icon": "subway", "coords": [46085, 29923], "names": {"ro": "偉風駅", "en": "Rewesufu Station"}},
+  {"id": "sluqecu_metro_146", "rank": "c", "icon": "subway", "coords": [46085, 29923], "names": {"ro": "偉風駅", "en": "Rewesuwhu Station"}},
   {"id": "sluqecu_metro_148", "rank": "c", "icon": "subway", "coords": [45119, 29020], "names": {"ro": "玄臨宮駅", "en": "Gyru Palace Station"}},
   {"id": "sluqecu_metro_150", "rank": "b", "icon": "subway", "coords": [43890, 28823], "names": {"ro": "京庁駅", "en": "Metropolitan City Hall Station"}},
   {"id": "sluqecu_metro_151", "rank": "c", "icon": "subway", "coords": [42893, 28407], "names": {"ro": "流川駅", "en": "Shibucheqa Station"}},
@@ -373,7 +373,7 @@
   {"id": "sluqecu_lrt_hr68", "rank": "c", "icon": "subway", "coords": [37534, 35731], "names": {"ro": "発棒駅", "en": "Bokamufu Station"}},
 
   {"id": "sluqecu_lrt_nj39", "rank": "c", "icon": "subway", "coords": [46736, 30122], "names": {"ro": "遊読西駅", "en": "Cesezema-Bus Station"}},
-  {"id": "sluqecu_lrt_nj40", "rank": "c", "icon": "subway", "coords": [46202, 29444], "names": {"ro": "偉風電子域駅", "en": "Rewesuwhu Digital Complex Station"}},
+  {"id": "sluqecu_lrt_nj40", "rank": "c", "icon": "subway", "coords": [46202, 29444], "names": {"ro": "林挕駅", "en": "Rusebi Station"}},
   {"id": "sluqecu_lrt_nj43", "rank": "c", "icon": "subway", "coords": [45102, 28033], "names": {"ro": "遇㒱神座駅", "en": "Divine Throne of Nomin Station"}},
   {"id": "sluqecu_lrt_nj46", "rank": "c", "icon": "subway", "coords": [43491, 27753], "names": {"ro": "小西駅", "en": "Shamobus Station"}},
   {"id": "sluqecu_lrt_nj47", "rank": "c", "icon": "subway", "coords": [42870, 27866], "names": {"ro": "流川公園駅", "en": "Sebucheqa Park Station"}},
