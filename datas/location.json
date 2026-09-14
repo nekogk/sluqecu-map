@@ -21,13 +21,13 @@
   {"id": "sluqecu_refabyuxiko", "rank": "w", "coords": [41571, 35805], "names": {"ro": "仮得門区", "en": "Refabyuxiko Ward"}},
   {"id": "sluqecu_sasgri", "rank": "w", "coords": [39084, 32163], "names": {"ro": "司㦮区", "en": "Sasgri Ward"}},
   {"id": "sluqecu_recadesae", "rank": "w", "coords": [38112, 36539], "names": {"ro": "竜岩区", "en": "Recadesae Ward"}},
-  {"id": "sluqecu_dabasha", "rank": "w", "coords": [48249, 22488], "names": {"ro": "分東区", "en": "Dabasha Ward"}},
+  {"id": "sluqecu_dabasha", "rank": "w", "coords": [36233, 41419], "names": {"ro": "分東区", "en": "Dabasha Ward"}},
   {"id": "sluqecu_sechicaspe", "rank": "w", "coords": [31549, 42088], "names": {"ro": "済座区", "en": "Sechicaspe Ward"}},
-  {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [31549, 42088], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
-  {"id": "sluqecu_tobacec", "rank": "w", "coords": [31549, 42088], "names": {"ro": "大手区", "en": "Tobacec Ward"}},
+  {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [29130, 38836], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
+  {"id": "sluqecu_tobacec", "rank": "w", "coords": [32828, 28090], "names": {"ro": "大手区", "en": "Tobacec Ward"}},
   {"id": "sluqecu_sachiseme", "rank": "w", "coords": [29968, 23552], "names": {"ro": "計海区", "en": "Sachiseme Ward"}},
   {"id": "sluqecu_gheyesacer", "rank": "w", "coords": [28102, 29008], "names": {"ro": "香振区", "en": "Gheyesacer Ward"}},
-  {"id": "sluqecu_merehanya", "rank": "w", "coords": [28102, 29008], "names": {"ro": "寒滩区", "en": "Merehanya Ward"}},
+  {"id": "sluqecu_merehanya", "rank": "w", "coords": [30865, 18372], "names": {"ro": "寒滩区", "en": "Merehanya Ward"}},
   {"id": "sluqecu_seshisefu", "rank": "w", "coords": [26491, 21067], "names": {"ro": "浅浦区", "en": "Seshisefu Ward"}},
   {"id": "sluqecu_miwha", "rank": "w", "coords": [27069, 6811], "names": {"ro": "㒱華区", "en": "Miwha Ward"}},
 
@@ -251,7 +251,7 @@
   {"id": "sluqecu_tozeshita_mesujesa", "rank": "t", "coords": [33487, 34589], "names": {"ro": "宿円街", "en": "Mesujesa Street"}},
   {"id": "sluqecu_tozeshita_mesujesa_03_01", "rank": "a", "icon": "star", "coords": [33545, 34004], "names": {"ro": "联邦㦮中", "en": "Federal Financial Center"}},
 
-  {"id": "sluqecu_miseme_sebo", "rank": "t", "coords": [48442, 24669], "names": {"ro": "大平街", "en": "Sebo Street"}},
+  {"id": "sluqecu_miseme_sebo", "rank": "t", "coords": [48442, 24669], "names": {"ro": "太平街", "en": "Sebo Street"}},
 
   {"id": "sluqecu_miseme_miqujiter01", "rank": "s", "coords": [48819, 25896], "names": {"ro": "蜜銅一番街", "en": "Miqujiter 1st Street"}},
 

@@ -13,7 +13,6 @@ let mapOverlay = L.imageOverlay(`maps/${currentMapKey}.svg`, bounds, {pane: 'map
 let markerLayer = L.layerGroup().addTo(map);
 let currentLang = 'ro';
 let transitLayer = 0;
-let landLayer = 0;
 let mapLayerDefs = [];
 let locationData = [];
 let iconData = {};
@@ -85,7 +84,7 @@ function renderMarkers() {
 }
 
 function updateMapLayers() {
-    const key = mapName + String((map.getZoom() < -2) + transitLayer * 2 + landLayer * 4).padStart(2, '0');
+    const key = mapName + String((map.getZoom() < -2) + transitLayer * 2).padStart(2, '0');
     if (key === currentMapKey) return;
     mapOverlay.setUrl(`maps/${key}.svg`);
     currentMapKey = key;
@@ -100,12 +99,6 @@ function toggleLang(btnElement) {
 function toggleTransit(btnElement) {
     const isActive = btnElement.classList.toggle('active');
     transitLayer = isActive ? 1 : 0;
-    updateMapLayers();
-}
-
-function toggleLand(btnElement) {
-    const isActive = btnElement.classList.toggle('active');
-    landLayer = isActive ? 1 : 0;
     updateMapLayers();
 }
 

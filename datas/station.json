@@ -268,7 +268,7 @@
   {"id": "sluqecu_metro_728", "rank": "b", "icon": "subway", "coords": [50593, 27248], "names": {"ro": "仕湾区庁駅", "en": "Resexwa Ward Office Station"}},
   {"id": "sluqecu_metro_729", "rank": "c", "icon": "subway", "coords": [49872, 26614], "names": {"ro": "对谷駅", "en": "Cerqesa Station"}},
   {"id": "sluqecu_metro_731", "rank": "b", "icon": "subway", "coords": [49085, 24945], "names": {"ro": "蜜銅駅", "en": "Miqujiter Station"}},
-  {"id": "sluqecu_metro_732", "rank": "b", "icon": "subway", "coords": [48906, 24073], "names": {"ro": "大平駅", "en": "Sebo Station"}},
+  {"id": "sluqecu_metro_732", "rank": "b", "icon": "subway", "coords": [48906, 24073], "names": {"ro": "太平駅", "en": "Sebo Station"}},
   {"id": "sluqecu_metro_733", "rank": "c", "icon": "subway", "coords": [48727, 23318], "names": {"ro": "北駅", "en": "Yujajicu-Rube Station"}},
   {"id": "sluqecu_metro_734", "rank": "c", "icon": "subway", "coords": [48574, 22424], "names": {"ro": "越狂駅", "en": "Fesuchewha Station"}},
   {"id": "sluqecu_metro_735", "rank": "c", "icon": "subway", "coords": [48626, 21578], "names": {"ro": "界鬦駅", "en": "Kozejizo Station"}},
