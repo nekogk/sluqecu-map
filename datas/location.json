@@ -1,202 +1,294 @@
 [
   {"id": "sluqecu", "rank": "m", "coords": [36928, 27904], "names": {"ro": "緑山京", "en": "Sluqecu Metropolis"}},
-
   {"id": "sluqecu_shishiceso", "rank": "w", "coords": [43269, 28940], "names": {"ro": "神道区", "en": "Shishiceso Ward"}},
+  {"id": "sluqecu_ghashido", "rank": "w", "coords": [42940, 31628], "names": {"ro": "虚陽区", "en": "Ghashido Ward"}},
+  {"id": "sluqecu_shitobu", "rank": "w", "coords": [39906, 28668], "names": {"ro": "海斗棒区", "en": "Shitobu Ward"}},
+  {"id": "sluqecu_righeju", "rank": "w", "coords": [37208, 27951], "names": {"ro": "旧津区", "en": "Righeju Ward"}},
+  {"id": "sluqecu_jeseceso", "rank": "w", "coords": [35627, 32402], "names": {"ro": "雨道区", "en": "Jeseceso Ward"}},
+  {"id": "sluqecu_tozeshita", "rank": "w", "coords": [33398, 35536], "names": {"ro": "乗怠区", "en": "Tozeshita Ward"}},
+  {"id": "sluqecu_miseme", "rank": "w", "coords": [46687, 26747], "names": {"ro": "栄海区", "en": "Miseme Ward"}},
+  {"id": "sluqecu_asrinyu", "rank": "w", "coords": [42500, 23500], "names": {"ro": "広女区", "en": "Asrinyu Ward"}},
+  {"id": "sluqecu_lesawez", "rank": "w", "coords": [41500, 26000], "names": {"ro": "三日区", "en": "Lesawez Ward"}},
+  {"id": "sluqecu_sezomure", "rank": "w", "coords": [39000, 19000], "names": {"ro": "潮見区", "en": "Sezomure Ward"}},
+  {"id": "sluqecu_remasesha", "rank": "w", "coords": [35000, 18500], "names": {"ro": "満港区", "en": "Remasesha Ward"}},
+  {"id": "sluqecu_rereas", "rank": "w", "coords": [34500, 23500], "names": {"ro": "听知区", "en": "Rereas Ward"}},
+  {"id": "sluqecu_serksosi", "rank": "w", "coords": [53500, 21500], "names": {"ro": "舞名区", "en": "Serkoshi Ward"}},
+  {"id": "sluqecu_yujaseme", "rank": "w", "coords": [46500, 18500], "names": {"ro": "区", "en": "Yujaseme Ward"}},
+  {"id": "sluqecu_kozewhora", "rank": "w", "coords": [48000, 22500], "names": {"ro": "界燃区", "en": "Kozewhora Ward"}},
+  {"id": "sluqecu_resexwa", "rank": "w", "coords": [50629, 26707], "names": {"ro": "仕湾区", "en": "Resexwa Ward"}},
+  {"id": "sluqecu_pijizu", "rank": "w", "coords": [48989, 31059], "names": {"ro": "北畴区", "en": "Pijizu Ward"}},
+  {"id": "sluqecu_whohercache", "rank": "w", "coords": [47296, 34431], "names": {"ro": "秋疑区", "en": "Whohercache Ward"}},
+  {"id": "sluqecu_refabyuxiko", "rank": "w", "coords": [41571, 35805], "names": {"ro": "仮得門区", "en": "Refabyuxiko Ward"}},
+  {"id": "sluqecu_sasgri", "rank": "w", "coords": [39084, 32163], "names": {"ro": "司㦮区", "en": "Sasgri Ward"}},
+  {"id": "sluqecu_recadesae", "rank": "w", "coords": [38112, 36539], "names": {"ro": "竜岩区", "en": "Recadesae Ward"}},
+  {"id": "sluqecu_dabasha", "rank": "w", "coords": [36000, 41500], "names": {"ro": "分東区", "en": "Dabasha Ward"}},
+  {"id": "sluqecu_sechicaspe", "rank": "w", "coords": [31500, 42000], "names": {"ro": "済座区", "en": "Sechicaspe Ward"}},
+  {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [29000, 39000], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
+  {"id": "sluqecu_tobacec", "rank": "w", "coords": [33000, 28000], "names": {"ro": "大手区", "en": "Tobacec Ward"}},
+  {"id": "sluqecu_sachiseme", "rank": "w", "coords": [30000, 23500], "names": {"ro": "計海区", "en": "Sachiseme Ward"}},
+  {"id": "sluqecu_gheyesacer", "rank": "w", "coords": [28000, 29000], "names": {"ro": "香振区", "en": "Gheyesacer Ward"}},
+  {"id": "sluqecu_merehanya", "rank": "w", "coords": [31000, 18500], "names": {"ro": "寒滩区", "en": "Merehanya Ward"}},
+  {"id": "sluqecu_seshisefu", "rank": "w", "coords": [26500, 21000], "names": {"ro": "浅浦区", "en": "Seshisefu Ward"}},
+  {"id": "sluqecu_miwha", "rank": "w", "coords": [26500, 6000], "names": {"ro": "㒱華区", "en": "Miwha Ward"}},
+
   {"id": "sluqecu_shishiceso_rewesufu", "rank": "t", "coords": [45957, 29509], "names": {"ro": "偉風街", "en": "Rewesufu Street"}},
-  {"id": "sluqecu_shishiceso_qecxyani", "rank": "t", "coords": [45533, 30003], "names": {"ro": "尺幸街", "en": "Qecxyani Street"}},
-  {"id": "sluqecu_shishiceso_hatarechetu02", "rank": "s", "coords": [44584, 28200], "names": {"ro": "初地二番街", "en": "Hatarechetu 2nd Street"}},
-  {"id": "sluqecu_shishiceso_hatarechetu03", "rank": "s", "coords": [44776, 28732], "names": {"ro": "初地三番街", "en": "Hatarechetu 3rd Street"}},
-  {"id": "sluqecu_shishiceso_hatarechetu04", "rank": "s", "coords": [44497, 29546], "names": {"ro": "初地四番街", "en": "Hatarechetu 4th Street"}},
-  {"id": "sluqecu_shishiceso_yuwhez01", "rank": "s", "coords": [43400, 28029], "names": {"ro": "灰降一番街", "en": "Yuwhez 1st Street"}},
-  {"id": "sluqecu_shishiceso_yuwhez02", "rank": "s", "coords": [43468, 28638], "names": {"ro": "灰降二番街", "en": "Yuwhez 2nd Street"}},
-  {"id": "sluqecu_shishiceso_yuwhez03", "rank": "s", "coords": [43525, 29509], "names": {"ro": "灰降三番街", "en": "Yuwhez 3rd Street"}},
-  {"id": "sluqecu_shishiceso_michisri01", "rank": "s", "coords": [42053, 27492], "names": {"ro": "紫石一番街", "en": "Michisri 1st Street"}},
-  {"id": "sluqecu_shishiceso_michisri02", "rank": "s", "coords": [42064, 28228], "names": {"ro": "紫石二番街", "en": "Michisri 2nd Street"}},
-  {"id": "sluqecu_shishiceso_michisri03", "rank": "s", "coords": [42064, 28833], "names": {"ro": "紫石三番街", "en": "Michisri 3rd Street"}},
-  {"id": "sluqecu_shishiceso_sarebegher", "rank": "t", "coords": [42557, 29625], "names": {"ro": "長平街", "en": "Sarebegher Street"}},
-  {"id": "sluqecu_shishiceso_rimixi", "rank": "t", "coords": [41601, 29421], "names": {"ro": "旧来街", "en": "Rimixi Street" }},
   {"id": "sluqecu_shishiceso_rewesufu_02_01", "rank": "c", "icon": "star", "coords": [46103, 29430], "names": {"ro": "似児塔", "en": "Twin Buildings"}},
   {"id": "sluqecu_shishiceso_rewesufu_03_10", "rank": "d", "icon": "business", "coords": [45678, 29216], "names": {"ro": "永井社", "en": "Ance Corporation"}},
   {"id": "sluqecu_shishiceso_rewesufu_05_02", "rank": "c", "icon": "star", "coords": [45828, 29578], "names": {"ro": "天場塔", "en": "Xisechisa Tower"}},
   {"id": "sluqecu_shishiceso_rewesufu_05_05", "rank": "d", "icon": "business", "coords": [45742, 29520], "names": {"ro": "䊹林電子", "en": "Cerum Electronics"}},
+
+  {"id": "sluqecu_shishiceso_qecxyani", "rank": "t", "coords": [45533, 30003], "names": {"ro": "尺幸街", "en": "Qecxyani Street"}},
   {"id": "sluqecu_shishiceso_qecxyani_01_01", "rank": "a", "icon": "train", "coords": [45683, 29692], "names": {"ro": "緑山駅", "en": "Sluqecu Station"}},
   {"id": "sluqecu_shishiceso_qecxyani_01_02", "rank": "c", "icon": "bus", "coords": [45634, 29771], "names": {"ro": "与車換乗場", "en": "Bus Transfer Center"}},
   {"id": "sluqecu_shishiceso_qecxyani_05_07", "rank": "a", "icon": "star", "coords": [45582, 30454], "names": {"ro": "京星塔", "en": "Zshapyes Tower"}},
   {"id": "sluqecu_shishiceso_qecxyani_05_24", "rank": "d", "icon": "square", "coords": [45399, 30379], "names": {"ro": "空中公園", "en": "Aerial Park"}},
   {"id": "sluqecu_shishiceso_qecxyani_07_01", "rank": "b", "icon": "account", "coords": [45316, 30097], "names": {"ro": "鉄道庁", "en": "Railway Agency"}},
   {"id": "sluqecu_shishiceso_qecxyani_07_02", "rank": "c", "icon": "hospital", "coords": [45156, 29965], "names": {"ro": "恩池病院", "en": "Shixidaba Hospital"}},
+
+  {"id": "sluqecu_shishiceso_hatarechetu02", "rank": "s", "coords": [44584, 28200], "names": {"ro": "初地二番街", "en": "Hatarechetu 2nd Street"}},
   {"id": "sluqecu_shishiceso_hatarechetu02_05_05", "rank": "a", "icon": "account", "coords": [44388, 28096], "names": {"ro": "大西州庁", "en": "Dechi State Capitol"}},
+
+  {"id": "sluqecu_shishiceso_hatarechetu03", "rank": "s", "coords": [44776, 28732], "names": {"ro": "初地三番街", "en": "Hatarechetu 3rd Street"}},
   {"id": "sluqecu_shishiceso_hatarechetu03_04_04", "rank": "a", "icon": "account", "coords": [44918, 28834], "names": {"ro": "囯議堂", "en": "National Assembly"}},
   {"id": "sluqecu_shishiceso_hatarechetu03_05_23", "rank": "d", "icon": "account", "coords": [44686, 28695], "names": {"ro": "乍囯大使舘", "en": "Zasoque Embassy"}},
   {"id": "sluqecu_shishiceso_hatarechetu03_05_25", "rank": "c", "icon": "museum", "coords": [44538, 28582], "names": {"ro": "初地中画舘", "en": "Hatarechetu Central Art Gallery"}},
   {"id": "sluqecu_shishiceso_hatarechetu03_11_13", "rank": "c", "icon": "mall", "coords": [44174, 28751], "names": {"ro": "初地星遊店", "en": "Hatarechetu Seyu Mall"}},
   {"id": "sluqecu_shishiceso_hatarechetu03_11_17", "rank": "b", "icon": "account", "coords": [44012, 28704], "names": {"ro": "緑山京庁", "en": "Sluqecu Metropolitan City Hall"}},
+
+  {"id": "sluqecu_shishiceso_hatarechetu04", "rank": "s", "coords": [44497, 29546], "names": {"ro": "初地四番街", "en": "Hatarechetu 4th Street"}},
   {"id": "sluqecu_shishiceso_hatarechetu04_01_01", "rank": "a", "icon": "park", "coords": [44026, 29668], "names": {"ro": "初地公園", "en": "Hatarechetu Park"}},
   {"id": "sluqecu_shishiceso_hatarechetu04_01_02", "rank": "a", "icon": "castle", "coords": [44884, 29635], "names": {"ro": "玄臨宮", "en": "Gyru Palace"}},
   {"id": "sluqecu_shishiceso_hatarechetu04_01_05", "rank": "b", "icon": "square", "coords": [44430, 29554], "names": {"ro": "㒱中広場", "en": "Rushizori Square"}},
   {"id": "sluqecu_shishiceso_hatarechetu04_01_07", "rank": "a", "icon": "account", "coords": [44308, 30078], "names": {"ro": "联邦論堂", "en": "Federal Capitol"}},
   {"id": "sluqecu_shishiceso_hatarechetu04_01_23", "rank": "e", "icon": "restaurant", "coords": [43922, 29574], "names": {"ro": "自由主義製麺所", "en": "Noodle Factory of Liberty"}},
+
+  {"id": "sluqecu_shishiceso_yuwhez01", "rank": "s", "coords": [43400, 28029], "names": {"ro": "灰降一番街", "en": "Yuwhez 1st Street"}},
   {"id": "sluqecu_shishiceso_yuwhez01_04_27", "rank": "c", "icon": "fire", "coords": [43350, 28123], "names": {"ro": "中部消防署", "en": "Central Fire Station"}},
   {"id": "sluqecu_shishiceso_yuwhez01_07_04", "rank": "b", "icon": "mall", "coords": [42900, 28130], "names": {"ro": "冷日与店", "en": "Remyoji Plaza"}},
+
+  {"id": "sluqecu_shishiceso_yuwhez02", "rank": "s", "coords": [43468, 28638], "names": {"ro": "灰降二番街", "en": "Yuwhez 2nd Street"}},
   {"id": "sluqecu_shishiceso_yuwhez02_04_01", "rank": "a", "icon": "park", "coords": [43106, 28512], "names": {"ro": "流川公園", "en": "Shibucheqa Park"}},
+
+  {"id": "sluqecu_shishiceso_yuwhez03", "rank": "s", "coords": [43525, 29509], "names": {"ro": "灰降三番街", "en": "Yuwhez 3rd Street"}},
   {"id": "sluqecu_shishiceso_yuwhez03_02_20", "rank": "c", "icon": "mall", "coords": [43528, 29154], "names": {"ro": "灰降店", "en": "Yuwhez Asloes Mall"}},
   {"id": "sluqecu_shishiceso_yuwhez03_03_04", "rank": "c", "icon": "library", "coords": [43594, 29398], "names": {"ro": "京立巻舘", "en": "Municipal Library"}},
   {"id": "sluqecu_shishiceso_yuwhez03_03_08", "rank": "b", "icon": "atm", "coords": [43292, 29338], "names": {"ro": "中艮行", "en": "Central Bank"}},
   {"id": "sluqecu_shishiceso_yuwhez03_04_05", "rank": "c", "icon": "police", "coords": [43734, 29545]  , "names": {"ro": "神道警察署", "en": "Shishiceso Police Station"}},
   {"id": "sluqecu_shishiceso_yuwhez03_04_21", "rank": "b", "icon": "account", "coords": [43632, 29988], "names": {"ro": "神道区庁", "en": "Shishiceso Ward Office"}},
   {"id": "sluqecu_shishiceso_yuwhez03_04_03", "rank": "b", "icon": "star", "coords": [43392, 29662], "names": {"ro": "三円団地", "en": "Lesajesa Complex"}},
+
+  {"id": "sluqecu_shishiceso_michisri01", "rank": "s", "coords": [42053, 27492], "names": {"ro": "紫石一番街", "en": "Michisri 1st Street"}},
   {"id": "sluqecu_shishiceso_michisri01_04_44", "rank": "b", "icon": "school", "coords": [42052, 27800], "names": {"ro": "刺濃小斈", "en": "Dajasener Elementary School"}},
   {"id": "sluqecu_shishiceso_michisri01_05_65", "rank": "c", "icon": "theater", "coords": [41540, 27708], "names": {"ro": "刺濃文化院", "en": "Dajasener Cultural Center"}},
+
+  {"id": "sluqecu_shishiceso_michisri02", "rank": "s", "coords": [42064, 28228], "names": {"ro": "紫石二番街", "en": "Michisri 2nd Street"}},
   {"id": "sluqecu_shishiceso_michisri02_01_36", "rank": "d", "icon": "account", "coords": [42322, 27969], "names": {"ro": "刺濃与庁", "en": "Dajasener Public Office"}},
   {"id": "sluqecu_shishiceso_michisri02_04_01", "rank": "a", "icon": "park", "coords": [42048, 28272], "names": {"ro": "紫石公園", "en": "Michisri Park"}},
   {"id": "sluqecu_shishiceso_michisri02_04_03", "rank": "d", "icon": "school","coords": [41896, 28395], "names": {"ro": "紫石万人斈院", "en": "Michisri Every Academy"}},
+
+  {"id": "sluqecu_shishiceso_michisri03", "rank": "s", "coords": [42064, 28833], "names": {"ro": "紫石三番街", "en": "Michisri 3rd Street"}},
+
+  {"id": "sluqecu_shishiceso_sarebegher", "rank": "t", "coords": [42557, 29625], "names": {"ro": "長平街", "en": "Sarebegher Street"}},
   {"id": "sluqecu_shishiceso_sarebegher_05_25", "rank": "b", "icon": "school", "coords": [42152, 29296], "names": {"ro": "旧来小斈", "en": "Rimixi Elementary School"}},
   {"id": "sluqecu_shishiceso_sarebegher_05_26", "rank": "b", "icon": "school", "coords": [42112, 29431], "names": {"ro": "流川中斈", "en": "Shibucheqa High School"}},
+
+  {"id": "sluqecu_shishiceso_rimixi", "rank": "t", "coords": [41601, 29421], "names": {"ro": "旧来街", "en": "Rimixi Street" }},
   {"id": "sluqecu_shishiceso_rimixi_03_01", "rank": "a", "icon": "park", "coords": [41510, 29612], "names": {"ro": "石原公園", "en": "Sricache Park"}},
   {"id": "sluqecu_shishiceso_rimixi_03_07", "rank": "c", "icon": "library", "coords": [41481, 29670], "names": {"ro": "石原巻舘", "en": "Sricache Library"}},
 
-  {"id": "sluqecu_ghashido", "rank": "w", "coords": [42940, 31628], "names": {"ro": "虚陽区", "en": "Ghashido Ward"}},
   {"id": "sluqecu_ghashido_yozuriha", "rank": "t", "coords": [45187, 31067], "names": {"ro": "酔冬街", "en": "Yozuriha Street"}},
+
   {"id": "sluqecu_ghashido_refacu", "rank": "t", "coords": [44814, 32646], "names": {"ro": "仮月街", "en": "Refacu Street"}},
+
   {"id": "sluqecu_ghashido_hatarechetu05", "rank": "s", "coords": [44406, 30451], "names": {"ro": "初地五番街", "en": "Hatarechetu 5nd Street"}},
+
   {"id": "sluqecu_ghashido_hatarechetu06", "rank": "s", "coords": [44261, 31066], "names": {"ro": "初地六番街", "en": "Hatarechetu 6rd Street"}},
-  {"id": "sluqecu_ghashido_hatarechetu07", "rank": "s", "coords": [44090, 31725], "names": {"ro": "初地七番街", "en": "Hatarechetu 7th Street"}},
-  {"id": "sluqecu_ghashido_rizaseca01", "rank": "s", "coords": [43949, 32412], "names": {"ro": "昨産一番街", "en": "Rizaseca 1st Street"}},
-  {"id": "sluqecu_ghashido_rizaseca02", "rank": "s", "coords": [43804, 33081], "names": {"ro": "昨産二番街", "en": "Rizaseca 2nd Street"}},
-  {"id": "sluqecu_ghashido_harema", "rank": "t", "coords": [43293, 30935], "names": {"ro": "行読街", "en": "Harema Street"}},
-  {"id": "sluqecu_ghashido_yules", "rank": "t", "coords": [42959, 32503], "names": {"ro": "露田街", "en": "Yules Street"}},
-  {"id": "sluqecu_ghashido_sazedafu", "rank": "t", "coords": [42621, 30796], "names": {"ro": "战刃街", "en": "Sazedafu Street"}},
-  {"id": "sluqecu_ghashido_sechiru", "rank": "t", "coords": [42293, 32270], "names": {"ro": "汽入街", "en": "Sechiru Street"}},
-  {"id": "sluqecu_ghashido_yuwhocewho", "rank": "t", "coords": [41727, 30482], "names": {"ro": "灰確街", "en": "Yuwhocewho Street"}},
-  {"id": "sluqecu_ghashido_fasaz", "rank": "t", "coords": [41461, 31490], "names": {"ro": "受底街", "en": "Fasaz Street"}},
-  {"id": "sluqecu_ghashido_cfasagher01", "rank": "s", "coords": [41300, 32352], "names": {"ro": "犯友一番街", "en": "Cfasagher 1st Street"}},
   {"id": "sluqecu_ghashido_hatarechetu06_04_01", "rank": "c", "icon": "mall", "coords": [44655, 30171], "names": {"ro": "尺幸与店", "en": "Qecxyani Soyu Mall"}},
   {"id": "sluqecu_ghashido_hatarechetu06_01_01", "rank": "a", "icon": "park", "coords": [44531, 31167], "names": {"ro": "自由公園", "en": "Park of Freedom"}},
   {"id": "sluqecu_ghashido_hatarechetu06_01_07", "rank": "b", "icon": "square", "coords": [44299, 31045], "names": {"ro": "自由広場", "en": "Square of Freedom"}},
   {"id": "sluqecu_ghashido_hatarechetu06_02_01", "rank": "a", "icon": "account", "coords": [43994, 30811], "names": {"ro": "中法院", "en": "Central Court"}},
   {"id": "sluqecu_ghashido_hatarechetu06_04_01", "rank": "a", "icon": "account", "coords": [43954, 31044], "names": {"ro": "大西州法院", "en": "Dechi State Court"}},
+
+  {"id": "sluqecu_ghashido_hatarechetu07", "rank": "s", "coords": [44090, 31725], "names": {"ro": "初地七番街", "en": "Hatarechetu 7th Street"}},
+
+  {"id": "sluqecu_ghashido_rizaseca01", "rank": "s", "coords": [43949, 32412], "names": {"ro": "昨産一番街", "en": "Rizaseca 1st Street"}},
+
+  {"id": "sluqecu_ghashido_rizaseca02", "rank": "s", "coords": [43804, 33081], "names": {"ro": "昨産二番街", "en": "Rizaseca 2nd Street"}},
+
+  {"id": "sluqecu_ghashido_harema", "rank": "t", "coords": [43293, 30935], "names": {"ro": "行読街", "en": "Harema Street"}},
   {"id": "sluqecu_ghashido_harema_02_02", "rank": "a", "icon": "hospital", "coords": [43310, 30926], "names": {"ro": "中病院", "en": "Medical Center"}},
   {"id": "sluqecu_ghashido_harema_03_02", "rank": "a", "icon": "star", "coords": [43251, 31500], "names": {"ro": "六方院", "en": "Sixfold Court"}},
+
+  {"id": "sluqecu_ghashido_yules", "rank": "t", "coords": [42959, 32503], "names": {"ro": "露田街", "en": "Yules Street"}},
   {"id": "sluqecu_ghashido_yules_04_12", "rank": "b", "icon": "account", "coords": [42768, 33078], "names": {"ro": "虚陽区庁", "en": "Ghashido Ward Office"}},
+
+  {"id": "sluqecu_ghashido_sazedafu", "rank": "t", "coords": [42621, 30796], "names": {"ro": "战刃街", "en": "Sazedafu Street"}},
+
+  {"id": "sluqecu_ghashido_sechiru", "rank": "t", "coords": [42293, 32270], "names": {"ro": "汽入街", "en": "Sechiru Street"}},
+
+  {"id": "sluqecu_ghashido_yuwhocewho", "rank": "t", "coords": [41727, 30482], "names": {"ro": "灰確街", "en": "Yuwhocewho Street"}},
+
+  {"id": "sluqecu_ghashido_fasaz", "rank": "t", "coords": [41461, 31490], "names": {"ro": "受底街", "en": "Fasaz Street"}},
   {"id": "sluqecu_ghashido_fasaz_02_31", "rank": "b", "icon": "school", "coords": [41897, 31875], "names": {"ro": "汽入中斈", "en": "Sechiru High School"}},
   {"id": "sluqecu_ghashido_fasaz_02_42", "rank": "b", "icon": "school", "coords": [41824, 31709], "names": {"ro": "汽入小斈", "en": "Sechiru Elementary School"}},
+
+  {"id": "sluqecu_ghashido_cfasagher01", "rank": "s", "coords": [41300, 32352], "names": {"ro": "犯友一番街", "en": "Cfasagher 1st Street"}},
   {"id": "sluqecu_ghashido_cfasagher01_04", "rank": "a", "icon": "mall", "coords": [41444, 32597], "names": {"ro": "犯友市街", "en": "Cfasagher Market"}},
 
-  {"id": "sluqecu_shitobu", "rank": "w", "coords": [39906, 28668], "names": {"ro": "海斗棒区", "en": "Shitobu Ward"}},
   {"id": "sluqecu_shitobu_nijere01", "rank": "s", "coords": [40910, 27373], "names": {"ro": "美琴一番街", "en": "Nijere 1st Street"}},
+
   {"id": "sluqecu_shitobu_nijere02", "rank": "s", "coords": [40755, 28025], "names": {"ro": "美琴二番街", "en": "Nijere 2nd Street"}},
-  {"id": "sluqecu_shitobu_nijere03", "rank": "s", "coords": [40620, 28671], "names": {"ro": "美琴三番街", "en": "Nijere 3rd Street"}},
-  {"id": "sluqecu_shitobu_nijere04", "rank": "s", "coords": [40526, 29297], "names": {"ro": "美琴四番街", "en": "Nijere 4th Street"}},
-  {"id": "sluqecu_shitobu_nijere05", "rank": "s", "coords": [40432, 30037], "names": {"ro": "美琴五番街", "en": "Nijere 5th Street"}},
-  {"id": "sluqecu_shitobu_sashepez", "rank": "t", "coords": [39568, 27072], "names": {"ro": "紹乏街", "en": "Sashepez Street"}},
-  {"id": "sluqecu_shitobu_sajerres01", "rank": "s", "coords": [39392, 27792], "names": {"ro": "影似一番街", "en": "Sajerres 1st Street"}},
-  {"id": "sluqecu_shitobu_sajerres02", "rank": "s", "coords": [39256, 28464], "names": {"ro": "影似二番街", "en": "Sajerres 2nd Street"}},
-  {"id": "sluqecu_shitobu_sajerres03", "rank": "s", "coords": [39096, 29000], "names": {"ro": "影似三番街", "en": "Sajerres 3rd Street"}},
-  {"id": "sluqecu_shitobu_misagher", "rank": "t", "coords": [39368, 29888], "names": {"ro": "未友街", "en": "Misagher Street"}},
-  {"id": "sluqecu_shitobu_mixyagher", "rank": "t", "coords": [38576, 29936], "names": {"ro": "来黒街", "en": "Mixyagher Street"}},
   {"id": "sluqecu_shitobu_nijere02_06", "rank": "a", "icon": "park", "coords": [40265, 28000], "names": {"ro": "朝遇公園", "en": "Zaryuda Park"}},
+
+  {"id": "sluqecu_shitobu_nijere03", "rank": "s", "coords": [40620, 28671], "names": {"ro": "美琴三番街", "en": "Nijere 3rd Street"}},
   {"id": "sluqecu_shitobu_nijere03_03_18", "rank": "b", "icon": "account", "coords": [40521, 28873], "names": {"ro": "海斗棒区庁", "en": "Shitobu Ward Office"}},
+
+  {"id": "sluqecu_shitobu_nijere04", "rank": "s", "coords": [40526, 29297], "names": {"ro": "美琴四番街", "en": "Nijere 4th Street"}},
   {"id": "sluqecu_shitobu_nijere04_03_10", "rank": "b", "icon": "school", "coords": [40827, 29246], "names": {"ro": "美琴小斈", "en": "Nijere Elementary School"}},
   {"id": "sluqecu_shitobu_nijere04_03_18", "rank": "b", "icon": "school", "coords": [40662, 29253], "names": {"ro": "美琴中斈", "en": "Nijere High School"}},
+
+  {"id": "sluqecu_shitobu_nijere05", "rank": "s", "coords": [40432, 30037], "names": {"ro": "美琴五番街", "en": "Nijere 5th Street"}},
   {"id": "sluqecu_shitobu_nijere05_01_01", "rank": "a", "icon": "park", "coords": [40694, 30114], "names": {"ro": "美琴公園", "en": "Nijere Park"}},
   {"id": "sluqecu_shitobu_nijere05_01_23", "rank": "e", "icon": "cafe", "coords": [40873, 30087], "names": {"ro": "喫茶店", "en": "Cafe Liverith"}},
   {"id": "sluqecu_shitobu_nijere05_01_07", "rank": "a", "icon": "theater", "coords": [40569, 29830], "names": {"ro": "中大剧堂", "en": "Central Theater"}},
   {"id": "sluqecu_shitobu_nijere05_02_06", "rank": "b", "icon": "temple", "coords": [39996, 29922], "names": {"ro": "圣礼舎", "en": "Sacred Ritual Stadium"}},
   {"id": "sluqecu_shitobu_nijere05_02_09", "rank": "b", "icon": "museum", "coords": [40060, 30149], "names": {"ro": "美琴創者場", "en": "Nijere Creater's Square"}},
+
+  {"id": "sluqecu_shitobu_sashepez", "rank": "t", "coords": [39568, 27072], "names": {"ro": "紹乏街", "en": "Sashepez Street"}},
+
+  {"id": "sluqecu_shitobu_sajerres01", "rank": "s", "coords": [39392, 27792], "names": {"ro": "影似一番街", "en": "Sajerres 1st Street"}},
   {"id": "sluqecu_shitobu_sajerres01_05_10", "rank": "c", "icon": "star", "coords": [39293, 28022], "names": {"ro": "覧月塔", "en": "Lanoji Building"}},
+
+  {"id": "sluqecu_shitobu_sajerres02", "rank": "s", "coords": [39256, 28464], "names": {"ro": "影似二番街", "en": "Sajerres 2nd Street"}},
   {"id": "sluqecu_shitobu_sajerres02_04_01", "rank": "c", "icon": "museum", "coords": [39281, 28246], "names": {"ro": "来㒱記念舘", "en": "Rimi Memorial Hall"}},
   {"id": "sluqecu_shitobu_sajerres02_06_12", "rank": "b", "icon": "school", "coords": [38673, 28315], "names": {"ro": "庶秘小斈", "en": "Zmifaza Elementary School"}},
   {"id": "sluqecu_shitobu_sajerres02_06_19", "rank": "b", "icon": "school", "coords": [38575, 28263], "names": {"ro": "影似中斈", "en": "Sajerres High School"}},
-  
-  {"id": "sluqecu_righeju", "rank": "w", "coords": [37208, 27951], "names": {"ro": "旧津区", "en": "Righeju Ward"}},
+
+  {"id": "sluqecu_shitobu_sajerres03", "rank": "s", "coords": [39096, 29000], "names": {"ro": "影似三番街", "en": "Sajerres 3rd Street"}},
+
+  {"id": "sluqecu_shitobu_misagher", "rank": "t", "coords": [39368, 29888], "names": {"ro": "未友街", "en": "Misagher Street"}},
+
+  {"id": "sluqecu_shitobu_mixyagher", "rank": "t", "coords": [38576, 29936], "names": {"ro": "来黒街", "en": "Mixyagher Street"}},
+
   {"id": "sluqecu_righeju_memutu", "rank": "t", "coords": [38268, 26552], "names": {"ro": "求茶街", "en": "Memutu Street"}},
+
   {"id": "sluqecu_righeju_kariresa01", "rank": "s", "coords": [38084, 28516], "names": {"ro": "甘末一番街", "en": "Kariresa 1st Street"}},
-  {"id": "sluqecu_righeju_kariresa02", "rank": "s", "coords": [38390, 27439], "names": {"ro": "甘末二番街", "en": "Kariresa 2nd Street"}},
-  {"id": "sluqecu_righeju_jumez", "rank": "t", "coords": [37652, 27252], "names": {"ro": "津房街", "en": "Jumez Street"}},
-  {"id": "sluqecu_righeju_kawacheqa", "rank": "t", "coords": [37383, 29626], "names": {"ro": "曲川街", "en": "Kawacheqa Street"}},
-  {"id": "sluqecu_righeju_righeju01", "rank": "s", "coords": [37672, 25832], "names": {"ro": "旧津一番街", "en": "Righeju 1st Street"}},
-  {"id": "sluqecu_righeju_righeju02", "rank": "s", "coords": [36878, 26801], "names": {"ro": "旧津二番街", "en": "Righeju 2nd Street"}},
-  {"id": "sluqecu_righeju_righeju03", "rank": "s", "coords": [36616, 27816], "names": {"ro": "旧津三番街", "en": "Righeju 3rd Street"}},
-  {"id": "sluqecu_righeju_righeju04", "rank": "s", "coords": [36894, 28527], "names": {"ro": "旧津四番街", "en": "Righeju 4th Street"}},
-  {"id": "sluqecu_righeju_righeju05", "rank": "s", "coords": [36062, 28941], "names": {"ro": "旧津五番街", "en": "Righeju 5th Street"}},
-  {"id": "sluqecu_righeju_righeju06", "rank": "s", "coords": [35883, 29620], "names": {"ro": "旧津六番街", "en": "Righeju 6th Street"}},
   {"id": "sluqecu_righeju_kariresa01_01_01", "rank": "c", "icon": "library", "coords": [38429, 28379], "names": {"ro": "㒱影巻舘", "en": "Rushisajer Library"}},
   {"id": "sluqecu_righeju_kariresa01_04_01", "rank": "b", "icon": "school", "coords": [38271, 28638], "names": {"ro": "甘末中斈", "en": "Kariresa High School"}},
   {"id": "sluqecu_righeju_kariresa01_04_02", "rank": "b", "icon": "school", "coords": [38168, 28611], "names": {"ro": "甘末小斈", "en": "Kariresa Elementary School"}},
+
+  {"id": "sluqecu_righeju_kariresa02", "rank": "s", "coords": [38390, 27439], "names": {"ro": "甘末二番街", "en": "Kariresa 2nd Street"}},
+
+  {"id": "sluqecu_righeju_jumez", "rank": "t", "coords": [37652, 27252], "names": {"ro": "津房街", "en": "Jumez Street"}},
   {"id": "sluqecu_righeju_jumez_03_27", "rank": "b", "icon": "school", "coords": [37699, 27334], "names": {"ro": "旧津小斈", "en": "Righeju Elementary School"}},
   {"id": "sluqecu_righeju_jumez_05_01", "rank": "a", "icon": "park", "coords": [37528, 27669], "names": {"ro": "鉄道公園", "en": "Railway Park"}},
   {"id": "sluqecu_righeju_jumez_05_03", "rank": "d", "icon": "star", "coords": [37475, 27583], "names": {"ro": "観流台", "en": "Observation Platform"}},
+
+  {"id": "sluqecu_righeju_kawacheqa", "rank": "t", "coords": [37383, 29626], "names": {"ro": "曲川街", "en": "Kawacheqa Street"}},
   {"id": "sluqecu_righeju_kawacheqa_02_01", "rank": "a", "icon": "park", "coords": [37263, 29557], "names": {"ro": "曲川公園", "en": "Kawacheqa Park"}},
+
+  {"id": "sluqecu_righeju_righeju01", "rank": "s", "coords": [37672, 25832], "names": {"ro": "旧津一番街", "en": "Righeju 1st Street"}},
+
+  {"id": "sluqecu_righeju_righeju02", "rank": "s", "coords": [36878, 26801], "names": {"ro": "旧津二番街", "en": "Righeju 2nd Street"}},
   {"id": "sluqecu_righeju_righeju02_04_09", "rank": "b", "icon": "school", "coords": [37158, 26622], "names": {"ro": "旧津中校", "en": "Righeju High School"}},
   {"id": "sluqecu_righeju_righeju02_04_10", "rank": "b", "icon": "school", "coords": [37128, 26766], "names": {"ro": "緑昔小校", "en": "Slurigher Elementary School"}},
   {"id": "sluqecu_righeju_righeju02_08_42", "rank": "d", "icon": "parking", "coords": [36668, 27074], "names": {"ro": "中日駐車塔", "en": "Cumyoji Parking Tower"}},
   {"id": "sluqecu_righeju_righeju02_09_58", "rank": "c", "icon": "mall", "coords": [36613, 27204], "names": {"ro": "枝土中日与店", "en": "Thallium Cumyoji Plaza"}},
   {"id": "sluqecu_righeju_righeju02_10_01", "rank": "c", "icon": "square", "coords": [36590, 26975], "names": {"ro": "中日広場", "en": "Cumyoji Square"}},
+
+  {"id": "sluqecu_righeju_righeju03", "rank": "s", "coords": [36616, 27816], "names": {"ro": "旧津三番街", "en": "Righeju 3rd Street"}},
   {"id": "sluqecu_righeju_righeju03_01_01", "rank": "b", "icon": "account", "coords": [37714, 27912], "names": {"ro": "旧津区庁", "en": "Righeju District Office"}},
   {"id": "sluqecu_righeju_righeju03_03_25", "rank": "c", "icon": "mall", "coords": [37423, 28129], "names": {"ro": "与店", "en": "Slumezu Plaza"}},
   {"id": "sluqecu_righeju_righeju03_03_47", "rank": "a", "icon": "train", "coords": [36981, 27895], "names": {"ro": "旧津駅", "en": "Righeju Station"}},
   {"id": "sluqecu_righeju_righeju03_11_05", "rank": "d", "icon": "star", "coords": [36109, 26953], "names": {"ro": "台㚑舘", "en": "Spirit Hall"}},
+  
+  {"id": "sluqecu_righeju_righeju04", "rank": "s", "coords": [36894, 28527], "names": {"ro": "旧津四番街", "en": "Righeju 4th Street"}},
   {"id": "sluqecu_righeju_righeju04_02_06", "rank": "b", "icon": "mall", "coords": [37464, 28513], "names": {"ro": "宋朝宗", "en": "Song Dynasty Floor"}},
+
+  {"id": "sluqecu_righeju_righeju05", "rank": "s", "coords": [36062, 28941], "names": {"ro": "旧津五番街", "en": "Righeju 5th Street"}},
+
+  {"id": "sluqecu_righeju_righeju06", "rank": "s", "coords": [35883, 29620], "names": {"ro": "旧津六番街", "en": "Righeju 6th Street"}},
   {"id": "sluqecu_righeju_righeju06_03_22", "rank": "c", "icon": "mall", "coords": [36161, 29935], "names": {"ro": "百貨店", "en": "Rotore Department Store"}},
   {"id": "sluqecu_righeju_righeju06_04_01", "rank": "c", "icon": "mall", "coords": [35676, 29529], "names": {"ro": "与店", "en": "Tossimas Plaza"}},
   {"id": "sluqecu_righeju_righeju06_04_03", "rank": "a", "icon": "museum", "coords": [35393, 29375], "names": {"ro": "中展示舘", "en": "CENTEX"}},
 
-  {"id": "sluqecu_jeseceso", "rank": "w", "coords": [35627, 32402], "names": {"ro": "雨道区", "en": "Jeseceso Ward"}},
   {"id": "sluqecu_jeseceso_myocale", "rank": "t", "coords": [37166, 30615], "names": {"ro": "由花街", "en": "Myocale Street"}},
+
   {"id": "sluqecu_jeseceso_beghezori01", "rank": "s", "coords": [37007, 31226], "names": {"ro": "平中一番街", "en": "Beghezori 1st Street"}},
+
   {"id": "sluqecu_jeseceso_beghezori02", "rank": "s", "coords": [36792, 31848], "names": {"ro": "平中二番街", "en": "Beghezori 2nd Street"}},
+
   {"id": "sluqecu_jeseceso_wezes", "rank": "t", "coords": [36464, 32742], "names": {"ro": "日田街", "en": "Wezes Street"}},
+
   {"id": "sluqecu_jeseceso_soshiju01", "rank": "s", "coords": [35604, 30366], "names": {"ro": "持津一番街", "en": "Soshiju 1st Street"}},
+
   {"id": "sluqecu_jeseceso_soshiju02", "rank": "s", "coords": [35706, 31305], "names": {"ro": "持津二番街", "en": "Soshiju 2nd Street"}},
-  {"id": "sluqecu_jeseceso_soshiju03", "rank": "s", "coords": [34914, 32278], "names": {"ro": "持津三番街", "en": "Soshiju 3rd Street"}},
-  {"id": "sluqecu_jeseceso_lano01", "rank": "s", "coords": [33873, 32798], "names": {"ro": "延南一番街", "en": "Lano 1st Street"}},
-  {"id": "sluqecu_jeseceso_lano02", "rank": "s", "coords": [34778, 33862], "names": {"ro": "延南二番街", "en": "Lano 2nd Street"}},
   {"id": "sluqecu_jeseceso_soshiju02_10_03", "rank": "c", "icon": "mall", "coords": [35379, 31578], "names": {"ro": "与店", "en": "Imeda Mall"}},
   {"id": "sluqecu_jeseceso_soshiju02_10_09", "rank": "b", "icon": "account", "coords": [35525, 31642], "names": {"ro": "雨道区庁", "en": "Jeseceso Ward Office"}},
+
+  {"id": "sluqecu_jeseceso_soshiju03", "rank": "s", "coords": [34914, 32278], "names": {"ro": "持津三番街", "en": "Soshiju 3rd Street"}},
   {"id": "sluqecu_jeseceso_soshiju03_02_01", "rank": "a", "icon": "park",  "coords": [34995, 32452], "names": {"ro": "公園", "en": "Mise Park"}},
   {"id": "sluqecu_jeseceso_soshiju03_02_02", "rank": "c", "icon": "star", "coords": [35405, 32401], "names": {"ro": "真㒱銅像", "en": "Statue of Alethosomnia"}},
   {"id": "sluqecu_jeseceso_soshiju03_02_03", "rank": "b", "icon": "square", "coords": [35229, 32594], "names": {"ro": "広場", "en": "Mise Square"}},
   {"id": "sluqecu_jeseceso_soshiju03_02_06", "rank": "a", "icon": "attractions", "coords": [35331, 32852], "names": {"ro": "遊園", "en": "Mise Pleasure Ground"}},
   {"id": "sluqecu_jeseceso_soshiju03_02_19", "rank": "c", "icon": "mall", "coords": [34568, 33141], "names": {"ro": "惪氷与店", "en": "Zshibise Lizte Shopping Center"}},
+
+  {"id": "sluqecu_jeseceso_lano01", "rank": "s", "coords": [33873, 32798], "names": {"ro": "延南一番街", "en": "Lano 1st Street"}},
   {"id": "sluqecu_jeseceso_lano01_01_01", "rank": "c", "icon": "star",  "coords": [33674, 32018], "names": {"ro": "新円塔", "en": "Zjijesa Tower"}},
   {"id": "sluqecu_jeseceso_lano01_01_06", "rank": "c", "icon": "mall", "coords": [33888, 32313], "names": {"ro": "新円店", "en": "Zjijesa Plerin Mall"}},
+
+  {"id": "sluqecu_jeseceso_lano02", "rank": "s", "coords": [34778, 33862], "names": {"ro": "延南二番街", "en": "Lano 2nd Street"}},
   {"id": "sluqecu_jeseceso_lano02_07_01", "rank": "b", "icon": "train", "coords": [34615, 33832], "names": {"ro": "延南駅", "en": "Lano Station"}},
 
-  {"id": "sluqecu_tozeshita", "rank": "w", "coords": [33398, 35536], "names": {"ro": "乗怠区", "en": "Tozeshita Ward"}},
   {"id": "sluqecu_tozeshita_lano03", "rank": "s", "coords": [34569, 34908], "names": {"ro": "延南三番街", "en": "Lano 3nd Street"}},
+
   {"id": "sluqecu_tozeshita_lano04", "rank": "s", "coords": [34105, 35559], "names": {"ro": "延南四番街", "en": "Lano 4rd Street"}},
+
   {"id": "sluqecu_tozeshita_lano05", "rank": "s", "coords": [34105, 36334], "names": {"ro": "延南五番街", "en": "Lano 5th Street"}},
+
   {"id": "sluqecu_tozeshita_lano06", "rank": "s", "coords": [33862, 37177], "names": {"ro": "延南六番街", "en": "Lano 6th Street"}},
+
   {"id": "sluqecu_tozeshita_mesujesa", "rank": "t", "coords": [33487, 34589], "names": {"ro": "宿円街", "en": "Mesujesa Street"}},
   {"id": "sluqecu_tozeshita_mesujesa_03_01", "rank": "a", "icon": "star", "coords": [33545, 34004], "names": {"ro": "联邦㦮中", "en": "Federal Financial Center"}},
 
-  {"id": "sluqecu_miseme", "rank": "w", "coords": [46687, 26747], "names": {"ro": "栄海区", "en": "Miseme Ward"}},
   {"id": "sluqecu_miseme_sebo", "rank": "t", "coords": [48442, 24669], "names": {"ro": "大平街", "en": "Sebo Street"}},
+
   {"id": "sluqecu_miseme_miqujiter01", "rank": "s", "coords": [48819, 25896], "names": {"ro": "蜜銅一番街", "en": "Miqujiter 1st Street"}},
+
   {"id": "sluqecu_miseme_miqujiter02", "rank": "s", "coords": [49062, 26909], "names": {"ro": "蜜銅二番街", "en": "Miqujiter 2nd Street"}},
-  {"id": "sluqecu_miseme_miseme01", "rank": "s", "coords": [47312, 25079], "names": {"ro": "栄海一番街", "en": "Miseme 1st Street"}},
-  {"id": "sluqecu_miseme_miseme02", "rank": "s", "coords": [46263, 25193], "names": {"ro": "栄海二番街", "en": "Miseme 2nd Street"}},
-  {"id": "sluqecu_miseme_miseme03", "rank": "s", "coords": [45590, 25072], "names": {"ro": "栄海三番街", "en": "Miseme 3rd Street"}},
-  {"id": "sluqecu_miseme_miseme04", "rank": "s", "coords": [44910, 25229], "names": {"ro": "栄海四番街", "en": "Miseme 4th Street"}},
-  {"id": "sluqecu_miseme_eruwho", "rank": "t", "coords": [47987, 26270], "names": {"ro": "訪炭街", "en": "Eruwho Street"}},
-  {"id": "sluqecu_miseme_daxilicec", "rank": "t", "coords": [46274, 26729], "names": {"ro": "重手街", "en": "Daxilicec Street"}},
-  {"id": "sluqecu_miseme_lesamis", "rank": "t", "coords": [46561, 28122], "names": {"ro": "三家街", "en": "Lesamis Street"}},
-  {"id": "sluqecu_miseme_dawhecache", "rank": "t", "coords": [46322, 29102], "names": {"ro": "赤原街", "en": "Dawhecache Street"}},
-  {"id": "sluqecu_miseme_perechetu", "rank": "t", "coords": [45818, 28313], "names": {"ro": "上地街", "en": "Perechetu Street"}},
-  {"id": "sluqecu_miseme_dajaresa", "rank": "t", "coords": [44662, 26757], "names": {"ro": "刺端街", "en": "Dajaresa Street"}},
-  {"id": "sluqecu_miseme_hatarechetu01", "rank": "s", "coords": [44921, 27690], "names": {"ro": "初地一番街", "en": "Hatarechetu 1st Street"}},
   {"id": "sluqecu_miseme_miqujiter02_02_02", "rank": "c", "icon": "star", "coords": [49429, 26400], "names": {"ro": "仕湾四棒塔", "en": "Resexwa Sherbu Tower"}},
+
+  {"id": "sluqecu_miseme_miseme01", "rank": "s", "coords": [47312, 25079], "names": {"ro": "栄海一番街", "en": "Miseme 1st Street"}},
+
+  {"id": "sluqecu_miseme_miseme02", "rank": "s", "coords": [46263, 25193], "names": {"ro": "栄海二番街", "en": "Miseme 2nd Street"}},
   {"id": "sluqecu_miseme_miseme02_03_03", "rank": "b", "icon": "account", "coords": [46012, 25185], "names": {"ro": "栄海区庁", "en": "Miseme Ward Office"}},
+
+  {"id": "sluqecu_miseme_miseme03", "rank": "s", "coords": [45590, 25072], "names": {"ro": "栄海三番街", "en": "Miseme 3rd Street"}},
+
+  {"id": "sluqecu_miseme_miseme04", "rank": "s", "coords": [44910, 25229], "names": {"ro": "栄海四番街", "en": "Miseme 4th Street"}},
+
+  {"id": "sluqecu_miseme_eruwho", "rank": "t", "coords": [47987, 26270], "names": {"ro": "訪炭街", "en": "Eruwho Street"}},
+
+  {"id": "sluqecu_miseme_daxilicec", "rank": "t", "coords": [46274, 26729], "names": {"ro": "重手街", "en": "Daxilicec Street"}},
   {"id": "sluqecu_miseme_daxilicec_04_29", "rank": "b", "icon": "school", "coords": [46441, 27121], "names": {"ro": "重手中斈", "en": "Daxilicec High School"}},
   {"id": "sluqecu_miseme_daxilicec_04_30", "rank": "b", "icon": "school", "coords": [46453, 27234], "names": {"ro": "重手小斈", "en": "Daxilicec Elementary School"}},
+
+  {"id": "sluqecu_miseme_lesamis", "rank": "t", "coords": [46561, 28122], "names": {"ro": "三家街", "en": "Lesamis Street"}},
   {"id": "sluqecu_miseme_lesamis_04_01", "rank": "a", "icon": "park", "coords": [46495, 27828], "names": {"ro": "三家公園", "en": "Lesamis Park"}},
   {"id": "sluqecu_miseme_lesamis_04_02", "rank": "c", "icon": "museum", "coords": [46545, 27895], "names": {"ro": "重㦮院", "en": "House of Cooper"}},
   {"id": "sluqecu_miseme_lesamis_04_03", "rank": "d", "icon": "school", "coords": [46471, 28413], "names": {"ro": "階民幼児斈院", "en": "Chimi Preschool"}},
+
+  {"id": "sluqecu_miseme_dawhecache", "rank": "t", "coords": [46322, 29102], "names": {"ro": "赤原街", "en": "Dawhecache Street"}},
+
+  {"id": "sluqecu_miseme_perechetu", "rank": "t", "coords": [45818, 28313], "names": {"ro": "上地街", "en": "Perechetu Street"}},
+
+  {"id": "sluqecu_miseme_dajaresa", "rank": "t", "coords": [44662, 26757], "names": {"ro": "刺端街", "en": "Dajaresa Street"}},
+
+  {"id": "sluqecu_miseme_hatarechetu01", "rank": "s", "coords": [44921, 27690], "names": {"ro": "初地一番街", "en": "Hatarechetu 1st Street"}},
   {"id": "sluqecu_miseme_hatarechetu01_04_04", "rank": "a", "icon": "account", "coords": [44857, 27394], "names": {"ro": "来民庁", "en": "Rimin Executive"}},
   {"id": "sluqecu_miseme_hatarechetu01_05_01", "rank": "a", "icon": "park", "coords": [44858, 27751], "names": {"ro": "神座公園", "en": "Divine Throne Park"}},
   {"id": "sluqecu_miseme_hatarechetu01_05_02", "rank": "c", "icon": "temple", "coords": [44914, 27796], "names": {"ro": "遇㒱神座", "en": "Divine Throne of Nomin"}},
 
-  {"id": "sluqecu_asrinyu", "rank": "w", "coords": [42500, 23500], "names": {"ro": "広女区", "en": "Asrinyu Ward"}},
   {"id": "sluqecu_asrinyu_mini", "rank": "t", "coords": [43713, 23707], "names": {"ro": "来美街", "en": "Mini Street"}},
   {"id": "sluqecu_asrinyu_ecepefa01", "rank": "s", "coords": [43727, 24352], "names": {"ro": "一番街", "en": "Ecepefa 1st Street"}},
   {"id": "sluqecu_asrinyu_lesawez01", "rank": "s", "coords": [42326, 24593], "names": {"ro": "三日一番街", "en": "Lesawez 1st Street"}},
@@ -205,59 +297,66 @@
   {"id": "sluqecu_asnrinyu_ecepefa01_08_01", "rank": "b", "icon": "school", "coords": [43547, 24422], "names": {"ro": "大延中斈", "en": "Tobayez High School"}},
   {"id": "sluqecu_asnrinyu_ecepefa01_08_02", "rank": "b", "icon": "school", "coords": [43546, 24553], "names": {"ro": "大延小斈", "en": "Tobayez Elementary School"}},
 
-  {"id": "sluqecu_lesawez", "rank": "w", "coords": [41500, 26000], "names": {"ro": "三日区", "en": "Lesawez Ward"}},
   {"id": "sluqecu_lesawez_ecepefa02", "rank": "s", "coords": [43977, 25397], "names": {"ro": "二番街", "en": "Ecepefa 2nd Street"}},
-  {"id": "sluqecu_lesawez_ecepefa03", "rank": "s", "coords": [43720, 26172], "names": {"ro": "三番街", "en": "Ecepefa 3rd Street"}},
-  {"id": "sluqecu_lesawez_ecepefa04", "rank": "s", "coords": [43606, 27223], "names": {"ro": "四番街", "en": "Ecepefa 4th Street"}},
-  {"id": "sluqecu_lesawez_resasha", "rank": "t", "coords": [42792, 27005], "names": {"ro": "安米街", "en": "Reasha Street"}},
-  {"id": "sluqecu_lesawez_lesawez02", "rank": "s", "coords": [43064, 25073], "names": {"ro": "三日二番街", "en": "Lesawez 2nd Street"}},
-  {"id": "sluqecu_lesawez_lesawez03", "rank": "s", "coords": [42322, 25658], "names": {"ro": "三日三番街", "en": "Lesawez 3rd Street"}},
-  {"id": "sluqecu_lesawez_lesawez04", "rank": "s", "coords": [41922, 26481], "names": {"ro": "三日四番街", "en": "Lesawez 4th Street"}},
-  {"id": "sluqecu_lesawez_resasha_02_01", "rank": "b", "icon": "account", "coords": [42605, 26453], "names": {"ro": "三日区庁", "en": "Lesawez Ward Office"}},
-  {"id": "sluqecu_lesawez_lesawez03_01_01", "rank": "a", "icon": "museum", "coords": [42760, 25568], "names": {"ro": "囯立博物舘", "en": "National Museum"}},
-  
-  {"id": "sluqecu_sezomure", "rank": "w", "coords": [39000, 19000], "names": {"ro": "潮見区", "en": "Sezomure Ward"}},
-  {"id": "sluqecu_remasesha", "rank": "w", "coords": [35000, 18500], "names": {"ro": "満港区", "en": "Remasesha Ward"}},
-  {"id": "sluqecu_rereas", "rank": "w", "coords": [34500, 23500], "names": {"ro": "听知区", "en": "Rereas Ward"}},
-  {"id": "sluqecu_serksosi", "rank": "w", "coords": [53500, 21500], "names": {"ro": "舞名区", "en": "Serkoshi Ward"}},
-  {"id": "sluqecu_yujaseme", "rank": "w", "coords": [46500, 18500], "names": {"ro": "区", "en": "Yujaseme Ward"}},
-  {"id": "sluqecu_kozewhora", "rank": "w", "coords": [48000, 22500], "names": {"ro": "界燃区", "en": "Kozewhora Ward"}},
 
-  {"id": "sluqecu_resexwa", "rank": "w", "coords": [50629, 26707], "names": {"ro": "仕湾区", "en": "Resexwa Ward"}},
+  {"id": "sluqecu_lesawez_ecepefa03", "rank": "s", "coords": [43720, 26172], "names": {"ro": "三番街", "en": "Ecepefa 3rd Street"}},
+
+  {"id": "sluqecu_lesawez_ecepefa04", "rank": "s", "coords": [43606, 27223], "names": {"ro": "四番街", "en": "Ecepefa 4th Street"}},
+
+  {"id": "sluqecu_lesawez_resasha", "rank": "t", "coords": [42792, 27005], "names": {"ro": "安米街", "en": "Reasha Street"}},
+  {"id": "sluqecu_lesawez_resasha_02_01", "rank": "b", "icon": "account", "coords": [42605, 26453], "names": {"ro": "三日区庁", "en": "Lesawez Ward Office"}},
+
+  {"id": "sluqecu_lesawez_lesawez02", "rank": "s", "coords": [43064, 25073], "names": {"ro": "三日二番街", "en": "Lesawez 2nd Street"}},
+
+  {"id": "sluqecu_lesawez_lesawez03", "rank": "s", "coords": [42322, 25658], "names": {"ro": "三日三番街", "en": "Lesawez 3rd Street"}},
+  {"id": "sluqecu_lesawez_lesawez03_01_01", "rank": "a", "icon": "museum", "coords": [42760, 25568], "names": {"ro": "囯立博物舘", "en": "National Museum"}},
+
+  {"id": "sluqecu_lesawez_lesawez04", "rank": "s", "coords": [41922, 26481], "names": {"ro": "三日四番街", "en": "Lesawez 4th Street"}},
+  
   {"id": "sluqecu_resexwa_miqujiter03", "rank": "s", "coords": [49949, 27238], "names": {"ro": "蜜銅三番街", "en": "Miqujiter 3st Street"}},
+
   {"id": "sluqecu_resexwa_miqujiter04", "rank": "s", "coords": [50642, 28079], "names": {"ro": "蜜銅四番街", "en": "Miqujiter 4th Street"}},
+  
   {"id": "sluqecu_resexwa_rewereshu", "rank": "t", "coords": [49226, 28335], "names": {"ro": "偉袖街", "en": "Rewereshu Street"}},
   {"id": "sluqecu_resexwa_rewereshu_01_01", "rank": "a", "icon": "park", "coords": [49305, 28090], "names": {"ro": "公園", "en": "Shose Park"}},
   {"id": "sluqecu_resexwa_rewereshu_01_03", "rank": "c", "icon": "star", "coords": [49133, 27918], "names": {"ro": "仮㒱銅像", "en": "Statue of Psudosomnia"}},
   {"id": "sluqecu_resexwa_rewereshu_01_16", "rank": "b", "icon": "square", "coords": [49226, 27732], "names": {"ro": "広場", "en": "Shose Square"}},
 
-  {"id": "sluqecu_pijizu", "rank": "w", "coords": [48989, 31059], "names": {"ro": "北畴区", "en": "Pijizu Ward"}},
   {"id": "sluqecu_pijizu_rujewho01", "rank": "s", "coords": [46521, 30882], "names": {"ro": "納熱一番街", "en": "Rujewho 1st Street"}},
+
   {"id": "sluqecu_pijizu_rujewho02", "rank": "s", "coords": [47019, 31453], "names": {"ro": "納熱二番街", "en": "Rujewho 2nd Street"}},
+
   {"id": "sluqecu_pijizu_rujewho03", "rank": "s", "coords": [46518, 32147], "names": {"ro": "納熱三番街", "en": "Rujewho 3st Street"}},
+
   {"id": "sluqecu_pijizu_rujewho04", "rank": "s", "coords": [46433, 33254], "names": {"ro": "納熱四番街", "en": "Rujewho 4th Street"}},
+
   {"id": "sluqecu_pijizu_cherema", "rank": "t", "coords": [45686, 31220], "names": {"ro": "氏亽万街", "en": "Cherema Street"}},
-  {"id": "sluqecu_pijizu_sanyako", "rank": "t", "coords": [45443, 33203], "names": {"ro": "島如街", "en": "Sanyako Street"}},
   {"id": "sluqecu_pijizu_cherema_06_01", "rank": "a", "icon": "park", "coords": [45810, 30836], "names": {"ro": "公園", "en": "Rinodeya Park"}},
 
-  {"id": "sluqecu_whohercache", "rank": "w", "coords": [47296, 34431], "names": {"ro": "秋疑区", "en": "Whohercache Ward"}},
+  {"id": "sluqecu_pijizu_sanyako", "rank": "t", "coords": [45443, 33203], "names": {"ro": "島如街", "en": "Sanyako Street"}},
+
   {"id": "sluqecu_whohercache_rizaseca03", "rank": "s", "coords": [44456, 34054], "names": {"ro": "昨産三番街", "en": "Rizaseca 3rd Street"}},
+  
   {"id": "sluqecu_whohercache_rizaseca04", "rank": "s", "coords": [43904, 34598], "names": {"ro": "昨産四番街", "en": "Rizaseca 4th Street"}},
+
   {"id": "sluqecu_whohercache_dawhojizo01", "rank": "s", "coords": [43667, 35340], "names": {"ro": "赤命一番街", "en": "Dawhojizo 1st Street"}},
+
   {"id": "sluqecu_whohercache_dawhojizo02", "rank": "s", "coords": [43570, 35952], "names": {"ro": "赤命二番街", "en": "Dawhojizo 2nd Street"}},
+
   {"id": "sluqecu_whohercache_dawhojizo03", "rank": "s", "coords": [43485, 36490], "names": {"ro": "赤命三番街", "en": "Dawhojizo 3rd Street"}},
+
   {"id": "sluqecu_whohercache_dawhojizo04", "rank": "s", "coords": [43431, 37048], "names": {"ro": "赤命四番街", "en": "Dawhojizo 4th Street"}},
 
-  {"id": "sluqecu_refabyuxiko", "rank": "w", "coords": [41571, 35805], "names": {"ro": "仮得門区", "en": "Refabyuxiko Ward"}},
   {"id": "sluqecu_refabyuxiko_shixicache", "rank": "t", "coords": [42282, 36876], "names": {"ro": "恩原街", "en": "Shixicache Street"}},
 
-  {"id": "sluqecu_sasgri", "rank": "w", "coords": [39084, 32163], "names": {"ro": "司㦮区", "en": "Sasgri Ward"}},
   {"id": "sluqecu_sasgri_nijere06", "rank": "s", "coords": [40288, 30809], "names": {"ro": "美琴六番街", "en": "Nijere 6th Street"}},
+
   {"id": "sluqecu_sasgri_nijere07", "rank": "s", "coords": [40166, 31359], "names": {"ro": "美琴七番街", "en": "Nijere 7th Street"}},
+
   {"id": "sluqecu_sasgri_cfasagher01", "rank": "s", "coords": [39951, 32103], "names": {"ro": "犯友二番街", "en": "Cfasagher 2nd Street"}},
+
   {"id": "sluqecu_sasgri_risatube", "rank": "t", "coords": [38071, 33168], "names": {"ro": "年丘街", "en": "Risatube Street"}},
 
-  {"id": "sluqecu_recadesae", "rank": "w", "coords": [38112, 36539], "names": {"ro": "竜岩区", "en": "Recadesae Ward"}},
   {"id": "sluqecu_recadesae_cetu", "rank": "t", "coords": [38432, 36010], "names": {"ro": "速院街", "en": "Cetu Street"}},
   {"id": "sluqecu_recadesae_cetu_03_32", "rank": "a", "icon": "hospital", "coords": [38784, 36165], "names": {"ro": "緑大附属病院", "en": "NSU Hospital"}},
   {"id": "sluqecu_recadesae_cetu_03_33", "rank": "d", "icon": "parking", "coords": [38712, 36252], "names": {"ro": "病院駐車棟", "en": "Hospital Parking Tower"}},
@@ -268,15 +367,5 @@
   {"id": "sluqecu_recadesae_cetu_08_05", "rank": "c", "icon": "museum", "coords": [38058, 36130], "names": {"ro": "緑大博物舘", "en": "NSU Museum"}},
   {"id": "sluqecu_recadesae_cetu_08_06", "rank": "c", "icon": "theater", "coords": [38245, 36237], "names": {"ro": "速院露天剧堂", "en": "Cetu Outdoor Theater"}},
   {"id": "sluqecu_recadesae_cetu_08_24", "rank": "c", "icon": "library", "coords": [38000, 36484], "names": {"ro": "緑大中巻舘", "en": "NSU Central Library"}},
-  {"id": "sluqecu_recadesae_cetu_08_38", "rank": "e", "icon": "dining", "coords": [38010, 36618], "names": {"ro": "緑大斈生食堂", "en": "NSU Student's Cafeteria"}},
-
-  {"id": "sluqecu_dabasha", "rank": "w", "coords": [36000, 41500], "names": {"ro": "分東区", "en": "Dabasha Ward"}},
-  {"id": "sluqecu_sechicaspe", "rank": "w", "coords": [31500, 42000], "names": {"ro": "済座区", "en": "Sechicaspe Ward"}},
-  {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [29000, 39000], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
-  {"id": "sluqecu_tobacec", "rank": "w", "coords": [33000, 28000], "names": {"ro": "大手区", "en": "Tobacec Ward"}},
-  {"id": "sluqecu_sachiseme", "rank": "w", "coords": [30000, 23500], "names": {"ro": "計海区", "en": "Sachiseme Ward"}},
-  {"id": "sluqecu_gheyesacer", "rank": "w", "coords": [28000, 29000], "names": {"ro": "香振区", "en": "Gheyesacer Ward"}},
-  {"id": "sluqecu_merehanya", "rank": "w", "coords": [31000, 18500], "names": {"ro": "寒滩区", "en": "Merehanya Ward"}},
-  {"id": "sluqecu_seshisefu", "rank": "w", "coords": [26500, 21000], "names": {"ro": "浅浦区", "en": "Seshisefu Ward"}},
-  {"id": "sluqecu_miwha", "rank": "w", "coords": [26500, 6000], "names": {"ro": "㒱華区", "en": "Miwha Ward"}}
+  {"id": "sluqecu_recadesae_cetu_08_38", "rank": "e", "icon": "dining", "coords": [38010, 36618], "names": {"ro": "緑大斈生食堂", "en": "NSU Student's Cafeteria"}}
 ]
