@@ -110,11 +110,12 @@ function toggleLand(btnElement) {
 }
 
 Promise.all([
+    fetch('datas/icon.json').then(res => res.json()),
     fetch('datas/location.json').then(res => res.json()),
-    fetch('datas/icon.json').then(res => res.json())
-]).then(([locations, icons]) => {
-    locationData = locations;
-    iconData = icons;
+    fetch('datas/station.json').then(res => res.json())
+]).then(([icon, location, station]) => {
+    iconData = icon;
+    locationData = location.concat(station);
     renderMarkers();
     updateMapLayers();
     map.fitBounds(bounds);
