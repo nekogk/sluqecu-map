@@ -1,4 +1,6 @@
 [
+  {"id": "sluqecu", "rank": "m", "coords": [36928, 27904], "names": {"ro": "緑山京", "en": "Sluqecu Metropolis"}},
+
   {"id": "sluqecu_shishiceso", "rank": "w", "coords": [43269, 28940], "names": {"ro": "神道区", "en": "Shishiceso Ward"}},
   {"id": "sluqecu_shishiceso_rewesufu", "rank": "t", "coords": [45957, 29509], "names": {"ro": "偉風街", "en": "Rewesufu Street"}},
   {"id": "sluqecu_shishiceso_qecxyani", "rank": "t", "coords": [45533, 30003], "names": {"ro": "尺幸街", "en": "Qecxyani Street"}},
