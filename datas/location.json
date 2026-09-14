@@ -276,7 +276,6 @@
   {"id": "sluqecu_miseme_lesamis", "rank": "t", "coords": [46561, 28122], "names": {"ro": "三家街", "en": "Lesamis Street"}},
   {"id": "sluqecu_miseme_lesamis_04_01", "rank": "a", "icon": "park", "coords": [46495, 27828], "names": {"ro": "三家公園", "en": "Lesamis Park"}},
   {"id": "sluqecu_miseme_lesamis_04_02", "rank": "c", "icon": "museum", "coords": [46545, 27895], "names": {"ro": "重㦮院", "en": "House of Cooper"}},
-  {"id": "sluqecu_miseme_lesamis_04_03", "rank": "d", "icon": "school", "coords": [46471, 28413], "names": {"ro": "階民幼児斈院", "en": "Chimi Preschool"}},
 
   {"id": "sluqecu_miseme_dawhecache", "rank": "t", "coords": [46322, 29102], "names": {"ro": "赤原街", "en": "Dawhecache Street"}},
 
