@@ -39,7 +39,7 @@
 
   {"id": "sluqecu_shishiceso_qecxyani", "rank": "t", "coords": [45533, 30003], "names": {"ro": "尺幸街", "en": "Qecxyani Street"}},
   {"id": "sluqecu_shishiceso_qecxyani_01_01", "rank": "a", "icon": "train", "coords": [45683, 29692], "names": {"ro": "緑山駅", "en": "Sluqecu Station"}},
-  {"id": "sluqecu_shishiceso_qecxyani_01_02", "rank": "c", "icon": "bus", "coords": [45634, 29771], "names": {"ro": "与車換乗場", "en": "Bus Transfer Center"}},
+  {"id": "sluqecu_shishiceso_qecxyani_01_02", "rank": "c", "icon": "bus", "coords": [45634, 29771], "names": {"ro": "合乗車換乗場", "en": "Bus Transfer Center"}},
   {"id": "sluqecu_shishiceso_qecxyani_05_07", "rank": "a", "icon": "star", "coords": [45582, 30454], "names": {"ro": "京星塔", "en": "Zshapyes Tower"}},
   {"id": "sluqecu_shishiceso_qecxyani_05_24", "rank": "d", "icon": "square", "coords": [45399, 30379], "names": {"ro": "空中公園", "en": "Aerial Park"}},
   {"id": "sluqecu_shishiceso_qecxyani_07_01", "rank": "b", "icon": "account", "coords": [45316, 30097], "names": {"ro": "鉄道庁", "en": "Railway Agency"}},
