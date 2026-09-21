@@ -150,22 +150,10 @@ if (!isEmbed) {
     map.on('moveend', () => history.replaceState(null, '', viewUrl(map.getCenter(), map.getZoom())));
 }
 
-// embed: 휠 확대는 끄고(글 스크롤을 방해하지 않게) 확대 버튼과 "전체 지도로 열기" 버튼을 둔다
+// embed: 휠 확대는 끄고(글 스크롤을 방해하지 않게) 버튼은 모두 숨긴다
 if (isEmbed) {
     map.scrollWheelZoom.disable();
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
-
-    const open = document.createElement('a');
-    open.className = 'control-btn open-full';
-    open.target = '_blank';
-    open.rel = 'noopener';
-    open.title = '전체 지도로 열기';
-    open.setAttribute('aria-label', '전체 지도로 열기');
-    open.textContent = '↗';
-    const first = initialView();
-    open.href = viewUrl(first.center, first.zoom);   // 지도가 뜨기 전에는 처음 위치로
-    map.on('moveend', () => { open.href = viewUrl(map.getCenter(), map.getZoom()); });
-    document.getElementById('custom-controls').append(open);
+    document.getElementById('custom-controls').remove();
 }
 
 // 창 크기가 바뀌면 글자 크기를 다시 계산

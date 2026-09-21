@@ -118,14 +118,3 @@ body { margin: 0; padding: 0; }
 
 .control-btn:hover { background: rgba(255, 255, 255, 0.5); }
 .control-btn.active { background: rgba(255, 255, 255, 0.5); }
-
-/* embed 모드: 전체 지도로 열기 버튼 */
-.control-btn.open-full {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-size: calc(2.4 * var(--u));
-    text-decoration: none;
-    box-sizing: border-box;
-}
