@@ -1,3 +1,6 @@
+/* 크기 단위: 기본은 1vh. 위키 등에 embed로 넣으면 script.js가 고정 px로 바꾼다 */
+:root { --u: 1vh; }
+
 @font-face {
     font-family: 'la';
     src: url('fonts/Pretendard-Regular.otf') format('opentype');
@@ -20,7 +23,7 @@
 }
 
 body { margin: 0; padding: 0; }
-#map { width: 100vw; height: 100vh; }
+#map { width: 100vw; height: 100vh; }  /* 지도 영역은 창(또는 iframe)을 가득 채움 */
 
 .map-label {
     background: transparent;
@@ -31,26 +34,26 @@ body { margin: 0; padding: 0; }
     font-family: 'rm', 'la', 'hz', sans-serif; 
     text-align: center;
     text-shadow: 
-        0.26vh 0 0 #222222,
-        0.24vh 0.1vh 0 #222222,
-        0.208vh 0.156vh 0 #222222,
-        0.156vh 0.208vh 0 #222222,
-        0.1vh 0.24vh 0 #222222,
-        0 0.26vh 0 #222222,
-        -0.125vh 0.24vh 0 #222222,
-        -0.156vh 0.208vh 0 #222222,
-        -0.208vh 0.156vh 0 #222222,
-        -0.24vh 0.1vh 0 #222222,
-        -0.26vh 0 0 #222222,
-        -0.24vh -0.1vh 0 #222222,
-        -0.208vh -0.156vh 0 #222222,
-        -0.156vh -0.208vh 0 #222222,
-        -0.1vh -0.24vh 0 #222222,
-        0 -0.26vh 0 #222222,
-        0.1vh -0.24vh 0 #222222,
-        0.156vh -0.208vh 0 #222222,
-        0.208vh -0.156vh 0 #222222,
-        0.24vh -0.1vh 0 #222222;
+        calc(0.26 * var(--u)) 0 0 #222222,
+        calc(0.24 * var(--u)) calc(0.1 * var(--u)) 0 #222222,
+        calc(0.208 * var(--u)) calc(0.156 * var(--u)) 0 #222222,
+        calc(0.156 * var(--u)) calc(0.208 * var(--u)) 0 #222222,
+        calc(0.1 * var(--u)) calc(0.24 * var(--u)) 0 #222222,
+        0 calc(0.26 * var(--u)) 0 #222222,
+        calc(-0.125 * var(--u)) calc(0.24 * var(--u)) 0 #222222,
+        calc(-0.156 * var(--u)) calc(0.208 * var(--u)) 0 #222222,
+        calc(-0.208 * var(--u)) calc(0.156 * var(--u)) 0 #222222,
+        calc(-0.24 * var(--u)) calc(0.1 * var(--u)) 0 #222222,
+        calc(-0.26 * var(--u)) 0 0 #222222,
+        calc(-0.24 * var(--u)) calc(-0.1 * var(--u)) 0 #222222,
+        calc(-0.208 * var(--u)) calc(-0.156 * var(--u)) 0 #222222,
+        calc(-0.156 * var(--u)) calc(-0.208 * var(--u)) 0 #222222,
+        calc(-0.1 * var(--u)) calc(-0.24 * var(--u)) 0 #222222,
+        0 calc(-0.26 * var(--u)) 0 #222222,
+        calc(0.1 * var(--u)) calc(-0.24 * var(--u)) 0 #222222,
+        calc(0.156 * var(--u)) calc(-0.208 * var(--u)) 0 #222222,
+        calc(0.208 * var(--u)) calc(-0.156 * var(--u)) 0 #222222,
+        calc(0.24 * var(--u)) calc(-0.1 * var(--u)) 0 #222222;
     white-space: nowrap;
 }
 
@@ -76,7 +79,7 @@ body { margin: 0; padding: 0; }
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    margin-right: 0.26vh;
+    margin-right: calc(0.26 * var(--u));
 }
 
 .map-icon svg {
@@ -87,22 +90,22 @@ body { margin: 0; padding: 0; }
 
 #custom-controls {
     position: absolute;
-    top: 1.6vh;
-    right: 1.6vh;
+    top: calc(1.6 * var(--u));
+    right: calc(1.6 * var(--u));
     z-index: 1000;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    gap: 0.8vh;
+    gap: calc(0.8 * var(--u));
 }
 
 .control-btn {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(0.26vh) saturate(100%);
-    -webkit-backdrop-filter: blur(0.26vh) saturate(100%);
-    border: 0.26vh solid rgba(255, 255, 255, 0.9);
-    width: 4.8vh;
-    height: 4.8vh;
+    backdrop-filter: blur(calc(0.26 * var(--u))) saturate(100%);
+    -webkit-backdrop-filter: blur(calc(0.26 * var(--u))) saturate(100%);
+    border: calc(0.26 * var(--u)) solid rgba(255, 255, 255, 0.9);
+    width: calc(4.8 * var(--u));
+    height: calc(4.8 * var(--u));
     border-radius: 50%;
     touch-action: manipulation;
 }
@@ -115,3 +118,14 @@ body { margin: 0; padding: 0; }
 
 .control-btn:hover { background: rgba(255, 255, 255, 0.5); }
 .control-btn.active { background: rgba(255, 255, 255, 0.5); }
+
+/* embed 모드: 전체 지도로 열기 버튼 */
+.control-btn.open-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: calc(2.4 * var(--u));
+    text-decoration: none;
+    box-sizing: border-box;
+}

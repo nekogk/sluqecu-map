@@ -1,6 +1,28 @@
 const bounds = [[0, 0], [65536, 65536]];
 const defaultColor = '#ffffff';
 const mapName = 'sluqecu_map';
+// ---------- 주소 파라미터 ----------
+// ?at=44032,28672&z=-1        그 좌표·줌으로 열기
+// &embed=1                    다른 사이트(위키 등)에 iframe으로 넣을 때
+const params = new URLSearchParams(location.search);
+const isEmbed = params.has('embed');
+const DEFAULT_VIEW = { center: [44032, 28672], zoom: 0 };
+
+function initialView() {
+    const at = (params.get('at') || '').split(',').map(Number);
+    const z = Number(params.get('z'));
+    return {
+        center: at.length === 2 && at.every(Number.isFinite) ? at : DEFAULT_VIEW.center,
+        zoom: params.has('z') && Number.isFinite(z) ? Math.min(3, Math.max(-5, z)) : DEFAULT_VIEW.zoom,
+    };
+}
+
+// 크기 단위(1u = 1vh). embed에서는 iframe이 작아도 글자가 읽히도록 최소 720px 화면 기준
+function unitPx() {
+    return (isEmbed ? Math.max(window.innerHeight, 720) : window.innerHeight) / 100;
+}
+if (isEmbed) document.documentElement.style.setProperty('--u', `${unitPx()}px`);
+
 const map = L.map('map', {crs: L.CRS.Simple, zoomSnap: 0, minZoom: -5, maxZoom: 3, zoomControl: false, maxBounds: bounds, maxBoundsViscosity: 1.0});
 const iconRanks = ['a', 'b', 'c', 'd', 'e'];
 const zoomThresholds = {'m': -5, 'w': -4, 't': -3, 's': -2.5, 'a': -2, 'b': -1.5, 'c': -1, 'd': -0.5, 'e': 0};
@@ -38,7 +60,8 @@ function renderMarkers() {
     locationData.forEach(loc => {
         if (currentZoom >= zoomThresholds[loc.rank] && currentZoom <= zoomThresholdsDisappear[loc.rank]) {
             const text = loc.names[currentLang] || loc.names['en'];
-            const fontSize = fontSizeThresholds[loc.rank];
+            const fontPx = parseFloat(fontSizeThresholds[loc.rank]) * unitPx();
+            const fontSize = `${fontPx}px`;
 
             let html, iconSize, iconAnchor;
 
@@ -46,7 +69,7 @@ function renderMarkers() {
                 const iconDef = iconData[loc.icon];
                 const iconColor = iconDef ? iconDef.color : defaultColor;
                 const iconSvg = buildIconSvg(iconDef);
-                const iconPx = Math.round(parseFloat(fontSize) * window.innerHeight / 50);
+                const iconPx = Math.round(fontPx * 2);
                 const isRect = iconDef && iconDef.shape === 'rect';
 
                 if (isRect) {
@@ -111,8 +134,44 @@ Promise.all([
     locationData = location.concat(station);
     renderMarkers();
     updateMapLayers();
-    map.fitBounds(bounds);
-    map.setView([44032, 28672], 0);
+    const view = initialView();
+    map.setView(view.center, view.zoom);
+});
+
+// 현재 위치 → 주소 (?at=위도,경도&z=줌)
+function viewUrl(center, zoom) {
+    const lat = Array.isArray(center) ? center[0] : center.lat;
+    const lng = Array.isArray(center) ? center[1] : center.lng;
+    return `${location.pathname}?at=${Math.round(lat)},${Math.round(lng)}&z=${Number(zoom.toFixed(2))}`;
+}
+
+// 일반 화면: 지도를 움직이면 주소창에 현재 위치를 적어 둔다 (주소를 복사해 위키에 쓰면 됨)
+if (!isEmbed) {
+    map.on('moveend', () => history.replaceState(null, '', viewUrl(map.getCenter(), map.getZoom())));
+}
+
+// embed: 휠 확대는 끄고(글 스크롤을 방해하지 않게) 확대 버튼과 "전체 지도로 열기" 버튼을 둔다
+if (isEmbed) {
+    map.scrollWheelZoom.disable();
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    const open = document.createElement('a');
+    open.className = 'control-btn open-full';
+    open.target = '_blank';
+    open.rel = 'noopener';
+    open.title = '전체 지도로 열기';
+    open.setAttribute('aria-label', '전체 지도로 열기');
+    open.textContent = '↗';
+    const first = initialView();
+    open.href = viewUrl(first.center, first.zoom);   // 지도가 뜨기 전에는 처음 위치로
+    map.on('moveend', () => { open.href = viewUrl(map.getCenter(), map.getZoom()); });
+    document.getElementById('custom-controls').append(open);
+}
+
+// 창 크기가 바뀌면 글자 크기를 다시 계산
+map.on('resize', () => {
+    if (isEmbed) document.documentElement.style.setProperty('--u', `${unitPx()}px`);
+    renderMarkers();
 });
 
 mapLayerDefs.forEach(def => {
