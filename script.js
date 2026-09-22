@@ -104,7 +104,7 @@ function renderMarkers() {
 
 function updateMapLayers() {
     const isZoom = (map.getZoom() < -2);
-    if (isEmbed) transitLayer = isZoom ? 1 : 0;
+    if (isEmbed) transitLayer = isZoom ? 0 : 1;
     const key = mapName + String(isZoom + transitLayer * 2).padStart(2, '0');
     if (key === currentMapKey) return;
     mapOverlay.setUrl(`maps/${key}.svg`);
