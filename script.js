@@ -21,7 +21,6 @@ function initialView() {
 function unitPx() {
     return (isEmbed ? Math.max(window.innerHeight, 720) : window.innerHeight) / 100;
 }
-if (isEmbed) document.documentElement.style.setProperty('--u', `${unitPx()}px`);
 
 const map = L.map('map', {crs: L.CRS.Simple, zoomSnap: 0, minZoom: -5, maxZoom: 3, zoomControl: false, maxBounds: bounds, maxBoundsViscosity: 1.0});
 const iconRanks = ['a', 'b', 'c', 'd', 'e'];
@@ -145,16 +144,13 @@ function viewUrl(center, zoom) {
     return `${location.pathname}?at=${Math.round(lat)},${Math.round(lng)}&z=${Number(zoom.toFixed(2))}`;
 }
 
-// 일반 화면: 지도를 움직이면 주소창에 현재 위치를 적어 둔다 (주소를 복사해 위키에 쓰면 됨)
-if (!isEmbed) {
-    map.on('moveend', () => history.replaceState(null, '', viewUrl(map.getCenter(), map.getZoom())));
-}
-
-// embed: 휠 확대는 끄고(글 스크롤을 방해하지 않게) 버튼은 모두 숨긴다
 if (isEmbed) {
+    document.documentElement.style.setProperty('--u', `${unitPx()}px`);
     map.scrollWheelZoom.disable();
     document.getElementById('custom-controls').remove();
+    transitLayer = 1
 }
+
 
 // 창 크기가 바뀌면 글자 크기를 다시 계산
 map.on('resize', () => {
