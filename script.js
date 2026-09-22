@@ -1,9 +1,6 @@
 const bounds = [[0, 0], [65536, 65536]];
 const defaultColor = '#ffffff';
 const mapName = 'sluqecu_map';
-// ---------- 주소 파라미터 ----------
-// ?at=44032,28672&z=-1        그 좌표·줌으로 열기
-// &embed=1                    다른 사이트(위키 등)에 iframe으로 넣을 때
 const params = new URLSearchParams(location.search);
 const isEmbed = params.has('embed');
 const DEFAULT_VIEW = { center: [44032, 28672], zoom: 0 };
@@ -106,7 +103,9 @@ function renderMarkers() {
 }
 
 function updateMapLayers() {
-    const key = mapName + String((map.getZoom() < -2) + transitLayer * 2).padStart(2, '0');
+    const isZoom = (map.getZoom() < -2);
+    if (isEmbed) transitLayer = isZoom ? 1 : 0;
+    const key = mapName + String(isZoom + transitLayer * 2).padStart(2, '0');
     if (key === currentMapKey) return;
     mapOverlay.setUrl(`maps/${key}.svg`);
     currentMapKey = key;
@@ -148,9 +147,7 @@ if (isEmbed) {
     document.documentElement.style.setProperty('--u', `${unitPx()}px`);
     map.scrollWheelZoom.disable();
     document.getElementById('custom-controls').remove();
-    transitLayer = 1
 }
-
 
 // 창 크기가 바뀌면 글자 크기를 다시 계산
 map.on('resize', () => {
