@@ -16,14 +16,14 @@ function initialView() {
 
 // 크기 단위(1u = 1vh). embed에서는 iframe이 작아도 글자가 읽히도록 최소 720px 화면 기준
 function unitPx() {
-    return (isEmbed ? Math.max(window.innerHeight, 720) : window.innerHeight) / 100;
+    return parseFloat(getComputedStyle(document.documentElement).fontSize);
 }
 
 const map = L.map('map', {crs: L.CRS.Simple, zoomSnap: 0, minZoom: -5, maxZoom: 3, zoomControl: false, maxBounds: bounds, maxBoundsViscosity: 1.0});
 const iconRanks = ['a', 'b', 'c', 'd', 'e'];
 const zoomThresholds = {'m': -5, 'w': -4, 't': -3, 's': -2.5, 'a': -2, 'b': -1.5, 'c': -1, 'd': -0.5, 'e': 0};
 const zoomThresholdsDisappear = {'m': -2, 'w': -1, 't': 0, 's': 0.5, 'a': 1, 'b': 1.5, 'c': 2, 'd': 2.5, 'e': 3};
-const fontSizeThresholds = {'m': '4.8vh', 'w': '3.2vh', 't': '2.4vh', 's': '2.4vh', 'a': '1.6vh', 'b': '1.6vh', 'c': '1.6vh', 'd': '1.6vh', 'e': '1.6vh'};
+const fontSizeThresholds = {'m': '1.4rem', 'w': '1.2rem', 't': '1.0rem', 's': '1.0rem', 'a': '0.8rem', 'b': '0.8rem', 'c': '0.8rem', 'd': '0.8rem', 'e': '0.8rem'};
 const zIndexRanks = {'m': 800, 'w': 700, 's': 600, 'a': 500, 'b': 400, 'c': 300, 'd': 200, 'e': 100};
 
 let currentMapKey = mapName + '00';
@@ -65,7 +65,7 @@ function renderMarkers() {
                 const iconDef = iconData[loc.icon];
                 const iconColor = iconDef ? iconDef.color : defaultColor;
                 const iconSvg = buildIconSvg(iconDef);
-                const iconPx = Math.round(fontPx * 2);
+                const iconPx = Math.round(fontPx * 1.5);
                 const isRect = iconDef && iconDef.shape === 'rect';
 
                 if (isRect) {
