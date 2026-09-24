@@ -20,7 +20,7 @@
 }
 
 body { margin: 0; padding: 0; }
-#map { width: 100vw; height: 100vh; }  /* 지도 영역은 창(또는 iframe)을 가득 채움 */
+#map { width: 100vw; height: 100vh; }
 
 .map-label {
     background: transparent;
@@ -32,25 +32,25 @@ body { margin: 0; padding: 0; }
     text-align: center;
     text-shadow: 
         0.1rem 0 0 #222222,
-        0.096rem 0.04rem 0 #222222,
+        0.096rem 0.028rem 0 #222222,
         0.08rem 0.06rem 0 #222222,
         0.06rem 0.08rem 0 #222222,
-        0.04rem 0.096rem 0 #222222,
+        0.028rem 0.096rem 0 #222222,
         0 0.1rem 0 #222222,
-        -0.04rem 0.096rem 0 #222222,
+        -0.028rem 0.096rem 0 #222222,
         -0.06rem 0.08rem 0 #222222,
         -0.08rem 0.06rem 0 #222222,
-        -0.096rem 0.04rem 0 #222222,
+        -0.096rem 0.028rem 0 #222222,
         -0.1rem 0 0 #222222,
-        -0.096rem -0.04rem 0 #222222,
+        -0.096rem -0.028rem 0 #222222,
         -0.08rem -0.06rem 0 #222222,
         -0.06rem -0.08rem 0 #222222,
-        -0.04rem -0.096rem 0 #222222,
+        -0.028rem -0.096rem 0 #222222,
         0 -0.1rem 0 #222222,
-        0.04rem -0.096rem 0 #222222,
+        0.028rem -0.096rem 0 #222222,
         0.06rem -0.08rem 0 #222222,
         0.08rem -0.06rem 0 #222222,
-        0.096rem -0.04rem 0 #222222;
+        0.096rem -0.028rem 0 #222222;
     white-space: nowrap;
 }
 
