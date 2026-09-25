@@ -75,7 +75,7 @@
   {"id": "sluqecu_shishiceso_yuwhez03_03_08", "rank": "b", "icon": "atm", "coords": [43292, 29338], "names": {"ro": "中艮行", "en": "Central Bank"}},
   {"id": "sluqecu_shishiceso_yuwhez03_04_05", "rank": "c", "icon": "police", "coords": [43734, 29545]  , "names": {"ro": "神道警察署", "en": "Shishiceso Police Station"}},
   {"id": "sluqecu_shishiceso_yuwhez03_04_21", "rank": "b", "icon": "account", "coords": [43632, 29988], "names": {"ro": "神道区庁", "en": "Shishiceso Ward Office"}},
-  {"id": "sluqecu_shishiceso_yuwhez03_04_03", "rank": "b", "icon": "star", "coords": [43392, 29662], "names": {"ro": "三円団地", "en": "Lesajesa Complex"}},
+  {"id": "sluqecu_shishiceso_yuwhez03_04_33", "rank": "b", "icon": "star", "coords": [43392, 29662], "names": {"ro": "三円団地", "en": "Lesajesa Complex"}},
 
   {"id": "sluqecu_shishiceso_michisri01", "rank": "s", "coords": [42053, 27492], "names": {"ro": "紫石一番街", "en": "Michisri 1st Street"}},
   {"id": "sluqecu_shishiceso_michisri01_04_44", "rank": "b", "icon": "school", "coords": [42052, 27800], "names": {"ro": "刺濃小斈", "en": "Dajasener Elementary School"}},
