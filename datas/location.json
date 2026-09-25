@@ -197,7 +197,7 @@
   {"id": "sluqecu_righeju_righeju02_10_01", "rank": "c", "icon": "square", "coords": [36590, 26975], "names": {"ro": "中日広場", "en": "Cumyoji Square"}},
 
   {"id": "sluqecu_righeju_righeju03", "rank": "s", "coords": [36616, 27816], "names": {"ro": "旧津三番街", "en": "Righeju 3rd Street"}},
-  {"id": "sluqecu_righeju_righeju03_01_01", "rank": "b", "icon": "account", "coords": [37714, 27912], "names": {"ro": "旧津区庁", "en": "Righeju District Office"}},
+  {"id": "sluqecu_righeju_righeju03_01_01", "rank": "b", "icon": "account", "coords": [37714, 27912], "names": {"ro": "旧津区庁", "en": "Righeju Ward Office"}},
   {"id": "sluqecu_righeju_righeju03_03_25", "rank": "c", "icon": "mall", "coords": [37423, 28129], "names": {"ro": "与店", "en": "Slumezu Plaza"}},
   {"id": "sluqecu_righeju_righeju03_03_47", "rank": "a", "icon": "train", "coords": [36981, 27895], "names": {"ro": "旧津駅", "en": "Righeju Station"}},
   {"id": "sluqecu_righeju_righeju03_11_05", "rank": "d", "icon": "star", "coords": [36109, 26953], "names": {"ro": "台㚑舘", "en": "Spirit Hall"}},
