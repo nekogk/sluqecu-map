@@ -21,8 +21,8 @@
   {"id": "dechi_railroad_1148", "rank": "b", "icon": "subway", "coords": [36553, 32685], "names": {"ro": "日田駅", "en": "Wezes Station"}},
   {"id": "dechi_railroad_1149", "rank": "b", "icon": "subway", "coords": [35784, 32484], "names": {"ro": "雨道駅", "en": "Jeseceso Station"}},
   
-  {"id": "dechi_railroad_1251", "rank": "b", "icon": "subway", "coords": [38604, 27961], "names": {"ro": "影似駅", "en": "Sajerres Station"}},
-  {"id": "dechi_railroad_1253", "rank": "b", "icon": "subway", "coords": [42211, 28608], "names": {"ro": "紫石駅", "en": "Michisri Station"}},
+  {"id": "dechi_railroad_1221", "rank": "b", "icon": "subway", "coords": [38604, 27961], "names": {"ro": "影似駅", "en": "Sajerres Station"}},
+  {"id": "dechi_railroad_1219", "rank": "b", "icon": "subway", "coords": [42211, 28608], "names": {"ro": "紫石駅", "en": "Michisri Station"}},
   
   {"id": "dechi_railroad_1548", "rank": "b", "icon": "subway", "coords": [35930, 39297], "names": {"ro": "飲獣駅", "en": "Cechesu Station"}},
   {"id": "dechi_railroad_1549", "rank": "b", "icon": "subway", "coords": [35304, 39493], "names": {"ro": "分東区庁駅", "en": "Dabasha District Office Station"}},
