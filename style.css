@@ -98,12 +98,11 @@ body { margin: 0; padding: 0; }
 .control-btn {
     width: 2.4rem;
     height: 2.4rem;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px) saturate(160%);
     -webkit-backdrop-filter: blur(12px) saturate(160%);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 1.2rem;
-    box-shadow: 1px 1px 0.6rem rgba(0, 0, 0, 0.2), inset 1px 1px 1px rgba(255, 255, 255, 0.1);
     cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -114,8 +113,9 @@ body { margin: 0; padding: 0; }
     pointer-events: none;
 }
 
-.control-btn:hover { background: rgba(255, 255, 255, 0.16); }
+.control-btn:hover { background: rgba(255, 255, 255, 0.2); }
+
 .control-btn.active { 
-    background: rgba(234, 191, 140, 0.35);
+    background: rgba(234, 191, 140, 0.3);
     border-color: rgba(234, 191, 140, 0.6);
 }
