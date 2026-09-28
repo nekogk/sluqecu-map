@@ -389,7 +389,7 @@
   {"id": "sluqecu_lrt_pm63", "rank": "c", "icon": "subway", "coords": [42809, 25793], "names": {"ro": "三日三番街駅", "en": "Lesawez 3rd Street Station"}},
   {"id": "sluqecu_lrt_pm65", "rank": "c", "icon": "subway", "coords": [42998, 24681], "names": {"ro": "三日一番街駅", "en": "Lesawez 1st Street Station"}},
   {"id": "sluqecu_lrt_pm66", "rank": "c", "icon": "subway", "coords": [42890, 24186], "names": {"ro": "活麻画駅", "en": "Katumeghe Station"}},
-  {"id": "sluqecu_lrt_pm68", "rank": "c", "icon": "subway", "coords": [42531, 22916], "names": {"ro": "延江公園駅", "en": "Yezbigo Park Station"}},
+  {"id": "sluqecu_lrt_pm68", "rank": "c", "icon": "subway", "coords": [42531, 22916], "names": {"ro": "延江公園駅", "en": "Ectene Park Station"}},
 
   {"id": "sluqecu_lrt_ln37", "rank": "c", "icon": "subway", "coords": [39232, 28648], "names": {"ro": "海斗棒駅", "en": "Shitobu Station"}},
   {"id": "sluqecu_lrt_ln52", "rank": "c", "icon": "subway", "coords": [33522, 34474], "names": {"ro": "宿円駅", "en": "Mesujesa Station"}}
