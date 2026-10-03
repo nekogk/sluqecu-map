@@ -3,7 +3,7 @@ const defaultColor = '#ffffff';
 const mapName = 'sluqecu_map';
 const params = new URLSearchParams(location.search);
 const isEmbed = params.has('embed');
-const DEFAULT_VIEW = { center: [44032, 28672], zoom: 0 };
+const DEFAULT_VIEW = { center: [21504, 36864], zoom: 0 };
 
 function initialView() {
     const at = (params.get('at') || '').split(',').map(Number);
