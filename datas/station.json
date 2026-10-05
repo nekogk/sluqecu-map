@@ -16,7 +16,7 @@
   {"id": "dechi_railroad_1153", "rank": "b", "icon": "subway", "coords": [27551, 32487], "names": {"ro": "年丘駅", "en": "Risatube Station"}},
   {"id": "dechi_railroad_1155", "rank": "b", "icon": "subway", "coords": [25110, 32106], "names": {"ro": "図絡駅", "en": "Daraji Station"}},
   {"id": "dechi_railroad_1156", "rank": "b", "icon": "subway", "coords": [23945, 31867], "names": {"ro": "仮得門駅", "en": "Refabyuxiko Station"}},
-  {"id": "dechi_railroad_1158", "rank": "b", "icon": "subway", "coords": [22218, 32110], "names": {"ro": "昨産駅", "en": "Rizaseca Station"}},
+  {"id": "dechi_railroad_1158", "rank": "b", "icon": "subway", "coords": [22222, 31942], "names": {"ro": "昨産駅", "en": "Rizaseca Station"}},
   {"id": "dechi_railroad_1160", "rank": "b", "icon": "subway", "coords": [20575, 31683], "names": {"ro": "械豆駅", "en": "Mujirica Station"}},
   {"id": "dechi_railroad_1161", "rank": "b", "icon": "subway", "coords": [19923, 32968], "names": {"ro": "矢顔駅", "en": "Pefumigo Station"}},
   {"id": "dechi_railroad_1162", "rank": "b", "icon": "subway", "coords": [19589, 33920], "names": {"ro": "氏亽万駅", "en": "Cherama Station"}},
