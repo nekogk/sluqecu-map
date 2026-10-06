@@ -97,7 +97,7 @@ function renderMarkers() {
             const textIcon = L.divIcon({className: 'map-label', html: html, iconSize: iconSize, iconAnchor: iconAnchor});
             const offset = zIndexRanks[loc.rank] || 0;
 
-            L.marker(loc.coords, {icon: textIcon, zIndexOffset: offset}).addTo(markerLayer);
+            L.marker(loc.coords, { icon: textIcon, zIndexOffset: offset, interactive: false, keyboard: false }).addTo(markerLayer);
         }
     });
 }
