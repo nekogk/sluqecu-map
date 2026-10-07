@@ -64,10 +64,10 @@
 
  {"id": "sluqecu_ghashido_rizaseca04", "rank": "s", "coords": [21587, 33124], "names": {"ro": "昨産四番街", "en": "Rizaseca 4th Street"}},
 
- {"id": "sluqecu_ghashido_hatarechetu05", "rank": "s", "coords": [21130, 35085], "names": {"ro": "初地五番街", "en": "Hatarechetu 5nd Street"}},
+ {"id": "sluqecu_ghashido_hatarechetu05", "rank": "s", "coords": [21130, 35085], "names": {"ro": "初地五番街", "en": "Hatarechetu 5tn Street"}},
  {"id": "sluqecu_ghashido_hatarechetu05_03_21", "rank": "c", "icon": "mall", "coords": [20881, 35365], "names": {"ro": "尺幸与店", "en": "Qecxyani Soyu Mall"}},
 
- {"id": "sluqecu_ghashido_hatarechetu06", "rank": "s", "coords": [21275, 34470], "names": {"ro": "初地六番街", "en": "Hatarechetu 6rd Street"}},
+ {"id": "sluqecu_ghashido_hatarechetu06", "rank": "s", "coords": [21275, 34470], "names": {"ro": "初地六番街", "en": "Hatarechetu 6tn Street"}},
  {"id": "sluqecu_ghashido_hatarechetu06_01_14", "rank": "a", "icon": "account", "coords": [21582, 34492], "names": {"ro": "大西州法院", "en": "Dechi State Court"}},
  {"id": "sluqecu_ghashido_hatarechetu06_04_03", "rank": "a", "icon": "account", "coords": [21542, 34725], "names": {"ro": "中法院", "en": "Central Court"}},
  {"id": "sluqecu_ghashido_hatarechetu06_05_01", "rank": "a", "icon": "park", "coords": [21005, 34369], "names": {"ro": "自由公園", "en": "Park of Freedom"}},
@@ -92,11 +92,11 @@
  {"id": "sluqecu_shishiceso_michisri02", "rank": "s", "coords": [23472, 37308], "names": {"ro": "紫石二番街", "en": "Michisri 2nd Street"}},
  {"id": "sluqecu_shishiceso_michisri02_03_01", "rank": "a", "icon": "park", "coords": [23488, 37264], "names": {"ro": "紫石公園", "en": "Michisri Park"}},
  {"id": "sluqecu_shishiceso_michisri02_03_03", "rank": "d", "icon": "school", "coords": [23640, 37141], "names": {"ro": "紫石万人斈院", "en": "Michisri Every Academy"}},
- {"id": "sluqecu_shishiceso_michisri02_05_05", "rank": "d", "icon": "account", "coords": [23214, 37567], "names": {"ro": "刺濃与庁", "en": "Dajasener Public Office"}},
+ {"id": "sluqecu_shishiceso_michisri02_05_05", "rank": "d", "icon": "account", "coords": [23214, 37567], "names": {"ro": "刺濃与庁", "en": "Dajasene Public Office"}},
 
  {"id": "sluqecu_shishiceso_michisri03", "rank": "s", "coords": [23483, 38044], "names": {"ro": "紫石三番街", "en": "Michisri 3ㄱㅇ Street"}},
- {"id": "sluqecu_shishiceso_michisri03_01_01", "rank": "c", "icon": "theater", "coords": [23996, 37828], "names": {"ro": "刺濃文化院", "en": "Dajasener Cultural Center"}},
- {"id": "sluqecu_shishiceso_michisri03_02_65", "rank": "b", "icon": "school", "coords": [23484, 37736], "names": {"ro": "刺濃小斈", "en": "Dajasener Elementary School"}},
+ {"id": "sluqecu_shishiceso_michisri03_01_01", "rank": "c", "icon": "theater", "coords": [23996, 37828], "names": {"ro": "刺濃文化院", "en": "Dajasene Cultural Center"}},
+ {"id": "sluqecu_shishiceso_michisri03_02_65", "rank": "b", "icon": "school", "coords": [23484, 37736], "names": {"ro": "刺濃小斈", "en": "Dajasene Elementary School"}},
  
  {"id": "sluqecu_shishiceso_yuwhez01", "rank": "s", "coords": [22136, 37507], "names": {"ro": "灰降一番街", "en": "Yuwhez 1st Street"}},
  {"id": "sluqecu_shishiceso_yuwhez01_01_04", "rank": "b", "icon": "mall", "coords": [22636, 37406], "names": {"ro": "冷日与店", "en": "Remyoji Plaza"}},
@@ -138,11 +138,11 @@
  {"id": "sluqecu_shishiceso_qecxyani_04_24", "rank": "d", "icon": "square", "coords": [20137, 35157], "names": {"ro": "空中公園", "en": "Aerial Park"}},
  {"id": "sluqecu_shishiceso_qecxyani_06_07", "rank": "a", "icon": "star", "coords": [19954, 35082], "names": {"ro": "京星塔", "en": "Zshapyes Tower"}},
 
- {"id": "sluqecu_shishiceso_rewesufu", "rank": "t", "coords": [19579, 36027], "names": {"ro": "偉風街", "en": "Rewesufu Street"}},
- {"id": "sluqecu_shishiceso_rewesufu_01_05", "rank": "d", "icon": "business", "coords": [19794, 36016], "names": {"ro": "䊹林電子", "en": "Cerum Electronics"}},
- {"id": "sluqecu_shishiceso_rewesufu_01_07", "rank": "c", "icon": "star", "coords": [19708, 35958], "names": {"ro": "天場塔", "en": "Xisechisa Tower"}},
- {"id": "sluqecu_shishiceso_rewesufu_02_02", "rank": "d", "icon": "business", "coords": [19858, 36320], "names": {"ro": "永井社", "en": "Ance Corporation"}},
- {"id": "sluqecu_shishiceso_rewesufu_03_10", "rank": "c", "icon": "star", "coords": [19433, 36106], "names": {"ro": "似児塔", "en": "Twin Buildings"}},
+ {"id": "sluqecu_shishiceso_rewesuwhu", "rank": "t", "coords": [19579, 36027], "names": {"ro": "偉風街", "en": "Rewesuwhu Street"}},
+ {"id": "sluqecu_shishiceso_rewesuwhu_01_05", "rank": "d", "icon": "business", "coords": [19794, 36016], "names": {"ro": "䊹林電子", "en": "Cerum Electronics"}},
+ {"id": "sluqecu_shishiceso_rewesuwhu_01_07", "rank": "c", "icon": "star", "coords": [19708, 35958], "names": {"ro": "天場塔", "en": "Xisechisa Tower"}},
+ {"id": "sluqecu_shishiceso_rewesuwhu_02_02", "rank": "d", "icon": "business", "coords": [19858, 36320], "names": {"ro": "永井社", "en": "Ance Corporation"}},
+ {"id": "sluqecu_shishiceso_rewesuwhu_03_10", "rank": "c", "icon": "star", "coords": [19433, 36106], "names": {"ro": "似児塔", "en": "Twin Buildings"}},
 
  {"id": "sluqecu_lesawez_lesawez01", "rank": "s", "coords": [23614, 39055], "names": {"ro": "三日一番街", "en": "Lesawez 1st Street"}},
 
