@@ -12,9 +12,9 @@
  {"id": "sluqecu_shitobu", "rank": "w", "coords": [25630, 36868], "names": {"ro": "海斗棒区", "en": "Shitobu Ward"}},
 
  {"id": "sluqecu_merehanya", "rank": "w", "coords": [34671, 47164], "names": {"ro": "寒滩区", "en": "Merehanya Ward"}},
- {"id": "sluqecu_rereas", "rank": "w", "coords": [31091, 42333], "names": {"ro": "听知区", "en": "Rereas Ward"}},
+ {"id": "sluqecu_rireas", "rank": "w", "coords": [31091, 42333], "names": {"ro": "听知区", "en": "Rireas Ward"}},
  {"id": "sluqecu_remasesha", "rank": "w", "coords": [30158, 46776], "names": {"ro": "満港区", "en": "Remasesha Ward"}},
- {"id": "sluqecu_sezomure", "rank": "w", "coords": [26525, 46588], "names": {"ro": "潮見区", "en": "Sezomure Ward"}},
+ {"id": "sluqecu_sezomuri", "rank": "w", "coords": [26525, 46588], "names": {"ro": "潮見区", "en": "Sezomuri Ward"}},
 
  {"id": "sluqecu_asrinyu", "rank": "w", "coords": [23074, 41922], "names": {"ro": "広女区", "en": "Asrinyu Ward"}},
  {"id": "sluqecu_yujaseme", "rank": "w", "coords": [18796, 47246], "names": {"ro": "区", "en": "Yujaseme Ward"}},
@@ -83,9 +83,9 @@
  {"id": "sluqecu_shishiceso_rimixi_02_01", "rank": "a", "icon": "park", "coords": [24026, 35924], "names": {"ro": "石原公園", "en": "Sricache Park"}},
  {"id": "sluqecu_shishiceso_rimixi_02_07", "rank": "c", "icon": "library", "coords": [24055, 35866], "names": {"ro": "石原巻舘", "en": "Sricache Library"}},
 
- {"id": "sluqecu_shishiceso_sarebegher", "rank": "t", "coords": [22979, 35911], "names": {"ro": "長平街", "en": "Sarebegher Street"}},
- {"id": "sluqecu_shishiceso_sarebegher_02_25", "rank": "b", "icon": "school", "coords": [23424, 36105], "names": {"ro": "流川中斈", "en": "Shibucheqa High School"}},
- {"id": "sluqecu_shishiceso_sarebegher_02_26", "rank": "b", "icon": "school", "coords": [23384, 36240], "names": {"ro": "旧来小斈", "en": "Rimixi Elementary School"}},
+ {"id": "sluqecu_shishiceso_saribegher", "rank": "t", "coords": [22979, 35911], "names": {"ro": "長平街", "en": "Saribegher Street"}},
+ {"id": "sluqecu_shishiceso_saribegher_02_25", "rank": "b", "icon": "school", "coords": [23424, 36105], "names": {"ro": "流川中斈", "en": "Shibucheqa High School"}},
+ {"id": "sluqecu_shishiceso_saribegher_02_26", "rank": "b", "icon": "school", "coords": [23384, 36240], "names": {"ro": "旧来小斈", "en": "Rimixi Elementary School"}},
  
  {"id": "sluqecu_shishiceso_michisri01", "rank": "s", "coords": [23472, 36703], "names": {"ro": "紫石一番街", "en": "Michisri 1st Street"}},
 
@@ -165,7 +165,7 @@
  {"id": "sluqecu_miseme_hatarechetu01_03_02", "rank": "c", "icon": "temple", "coords": [20622, 37740], "names": {"ro": "遇㒱神座", "en": "Divine Throne of Nomin"}},
  {"id": "sluqecu_miseme_hatarechetu01_04_14", "rank": "a", "icon": "account", "coords": [20679, 38142], "names": {"ro": "来民庁", "en": "Rimin Executive"}},
 
- {"id": "sluqecu_miseme_dajaresa", "rank": "t", "coords": [20874, 38779], "names": {"ro": "刺端街", "en": "Dajaresa Street"}},
+ {"id": "sluqecu_miseme_dajarisa", "rank": "t", "coords": [20874, 38779], "names": {"ro": "刺端街", "en": "Dajarisa Street"}},
 
  {"id": "sluqecu_miseme_perechetu", "rank": "t", "coords": [19718, 37223], "names": {"ro": "上地街", "en": "Perechetu Street"}},
 
@@ -257,12 +257,12 @@
  {"id": "sluqecu_righeju_jumez_03_03", "rank": "d", "icon": "star", "coords": [28061, 37953], "names": {"ro": "観流台", "en": "Observation Platform"}},
  {"id": "sluqecu_righeju_jumez_04_27", "rank": "b", "icon": "school", "coords": [27837, 38202], "names": {"ro": "旧津小斈", "en": "Righeju Elementary School"}},
 
- {"id": "sluqecu_righeju_kariresa01", "rank": "s", "coords": [27452, 37020], "names": {"ro": "甘末一番街", "en": "Kariresa 1st Street"}},
- {"id": "sluqecu_righeju_kariresa01_02_53", "rank": "b", "icon": "school", "coords": [27368, 36925], "names": {"ro": "甘末小斈", "en": "Kariresa Elementary School"}},
- {"id": "sluqecu_righeju_kariresa01_02_61", "rank": "b", "icon": "school", "coords": [27265, 36898], "names": {"ro": "甘末中斈", "en": "Kariresa High School"}},
- {"id": "sluqecu_righeju_kariresa01_03_51", "rank": "c", "icon": "library", "coords": [27107, 37157], "names": {"ro": "㒱影巻舘", "en": "Rushisajer Library"}},
+ {"id": "sluqecu_righeju_karirisa01", "rank": "s", "coords": [27452, 37020], "names": {"ro": "甘末一番街", "en": "Karirisa 1st Street"}},
+ {"id": "sluqecu_righeju_karirisa01_02_53", "rank": "b", "icon": "school", "coords": [27368, 36925], "names": {"ro": "甘末小斈", "en": "Karirisa Elementary School"}},
+ {"id": "sluqecu_righeju_karirisa01_02_61", "rank": "b", "icon": "school", "coords": [27265, 36898], "names": {"ro": "甘末中斈", "en": "Karirisa High School"}},
+ {"id": "sluqecu_righeju_karirisa01_03_51", "rank": "c", "icon": "library", "coords": [27107, 37157], "names": {"ro": "㒱影巻舘", "en": "Rushisajer Library"}},
 
- {"id": "sluqecu_righeju_kariresa02", "rank": "s", "coords": [27146, 38097], "names": {"ro": "甘末二番街", "en": "Kariresa 2nd Street"}},
+ {"id": "sluqecu_righeju_karirisa02", "rank": "s", "coords": [27146, 38097], "names": {"ro": "甘末二番街", "en": "Karirisa 2nd Street"}},
 
  {"id": "sluqecu_righeju_memutu", "rank": "t", "coords": [27268, 38984], "names": {"ro": "求茶街", "en": "Memutu Street"}},
 
