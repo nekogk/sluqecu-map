@@ -57,7 +57,7 @@
  {"id": "sluqecu_ghashido_yules_01_12", "rank": "b", "icon": "account", "coords": [22768, 32458], "names": {"ro": "虚陽区庁", "en": "Ghashido Ward Office"}},
 
  {"id": "sluqecu_ghashido_harema", "rank": "t", "coords": [22243, 34601], "names": {"ro": "行読街", "en": "Harema Street"}},
- {"id": "sluqecu_ghashido_harema_01_02", "rank": "a", "icon": "star", "coords": [22285, 34036], "names": {"ro": "六方院", "en": "Sixfold Court"}},
+ {"id": "sluqecu_ghashido_harema_01_02", "rank": "a", "icon": "star", "coords": [22214, 33857], "names": {"ro": "六方院", "en": "Sixfold Court"}},
  {"id": "sluqecu_ghashido_harema_02_02", "rank": "a", "icon": "hospital", "coords": [22226, 34610], "names": {"ro": "中病院", "en": "Medical Center"}},
  
  {"id": "sluqecu_ghashido_rizaseca03", "rank": "s", "coords": [21732, 32455], "names": {"ro": "昨産三番街", "en": "Rizaseca 3rd Street"}},
