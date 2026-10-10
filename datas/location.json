@@ -206,7 +206,7 @@
 
  {"id": "sluqecu_jeseceso_soshiju01", "rank": "s", "coords": [30622, 33258], "names": {"ro": "持津一番街", "en": "Soshiju 1st Street"}},
  {"id": "sluqecu_jeseceso_soshiju01_01_01", "rank": "a", "icon": "park", "coords": [30541, 33084], "names": {"ro": "公園", "en": "Mise Park"}},
- {"id": "sluqecu_jeseceso_soshiju01_01_05", "rank": "c", "icon": "mall", "coords": [30968, 32395], "names": {"ro": "惪氷与店", "en": "Zshibise Lizte Shopping Center"}},
+ {"id": "sluqecu_jeseceso_soshiju01_01_05", "rank": "c", "icon": "mall", "coords": [30968, 32395], "names": {"ro": "惪氷与店", "en": "Zshibise Lezte Shopping Center"}},
  {"id": "sluqecu_jeseceso_soshiju01_01_09", "rank": "b", "icon": "square", "coords": [30307, 32942], "names": {"ro": "広場", "en": "Mise Square"}},
  {"id": "sluqecu_jeseceso_soshiju01_01_12", "rank": "a", "icon": "attractions", "coords": [30205, 32684], "names": {"ro": "遊園", "en": "Mise Pleasure Ground"}},
  {"id": "sluqecu_jeseceso_soshiju01_01_21", "rank": "c", "icon": "star", "coords": [30131, 33135], "names": {"ro": "真㒱銅像", "en": "Statue of Alethosomnia"}},

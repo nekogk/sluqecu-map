@@ -380,7 +380,7 @@
   {"id": "sluqecu_lrt_nj54", "rank": "c", "icon": "subway", "coords": [22045, 37783], "names": {"ro": "小西駅", "en": "Shamobus Station"}},
   {"id": "sluqecu_lrt_nj57", "rank": "c", "icon": "subway", "coords": [20434, 37503], "names": {"ro": "遇㒱神座駅", "en": "Divine Throne of Nomin Station"}},
   {"id": "sluqecu_lrt_nj60", "rank": "c", "icon": "subway", "coords": [19334, 36092], "names": {"ro": "林挕駅", "en": "Rusebi Station"}},
-  {"id": "sluqecu_lrt_nj61", "rank": "c", "icon": "subway", "coords": [18800, 35414], "names": {"ro": "遊読北駅", "en": "Cesezema-Xigosha Station"}},
+  {"id": "sluqecu_lrt_nj61", "rank": "c", "icon": "subway", "coords": [18800, 35414], "names": {"ro": "遊読東駅", "en": "Cesezema-Xigosha Station"}},
 
   {"id": "sluqecu_lrt_pm46", "rank": "c", "icon": "subway", "coords": [23784, 34374], "names": {"ro": "害油駅", "en": "Jozekobeyo Station"}},
   {"id": "sluqecu_lrt_pm43", "rank": "c", "icon": "subway", "coords": [23499, 36139], "names": {"ro": "旧来駅", "en": "Rimixi Station"}},
