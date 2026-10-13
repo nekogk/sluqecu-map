@@ -1,12 +1,16 @@
 :root {
     --outline: #222222;
     --label-fg: #ffffff;
+    --active: #eabf8c33;
+    --beige: #eabf8c;
     --btn-icon-filter: brightness(0) invert(1);
 }
 
 :root.light {
     --outline: #eeeeee;
     --label-fg: #222222;
+    --active: #b68d5b33;
+    --beige: #b68d5b;
     --btn-icon-filter: brightness(0) invert(0.133);
 }
 
@@ -116,10 +120,10 @@ body { margin: 0; padding: 0; }
 .control-btn {
     width: 2.4rem;
     height: 2.4rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff22;
     backdrop-filter: blur(12px) saturate(160%);
     -webkit-backdrop-filter: blur(12px) saturate(160%);
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid #ffffff66;
     border-radius: 1.2rem;
     cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease;
@@ -132,9 +136,9 @@ body { margin: 0; padding: 0; }
     filter: var(--btn-icon-filter);
 }
 
-.control-btn:hover { background: rgba(255, 255, 255, 0.2); }
+.control-btn:hover { background: #ffffff33; }
 
 .control-btn.active { 
-    background: rgba(234, 191, 140, 0.3);
-    border-color: rgba(234, 191, 140, 0.6);
+    background: var(--active);
+    border-color: var(--beige);
 }

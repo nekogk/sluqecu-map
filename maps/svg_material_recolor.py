@@ -22,6 +22,7 @@ ONLY_HUES = None
 
 # 나무위키 '머티리얼 디자인' 팔레트 (Material Design 2), 50~900 순서
 # Grey 50, BlueGrey 50-300은 색상 휘도의 일관성을 위해 쉬프트되었음
+# Grey 400은 축소된 고속도로에서 쓰이기에 Grey 300 또한 쉬프트되었음
 PALETTE = {
     "Red":        ("FFEBEE", "FFCDD2", "EF9A9A", "E57373", "EF5350", "F44336", "E53935", "D32F2F", "C62828", "B71C1C"),
     "Pink":       ("FCE4EC", "F8BBD0", "F48FB1", "F06292", "EC407A", "E91E63", "D81B60", "C2185B", "AD1457", "880E4F"),
@@ -40,7 +41,7 @@ PALETTE = {
     "Orange":     ("FFF3E0", "FFE0B2", "FFCC80", "FFB74D", "FFA726", "FF9800", "FB8C00", "F57C00", "EF6C00", "E65100"),
     "DeepOrange": ("FBE9E7", "FFCCBC", "FFAB91", "FF8A65", "FF7043", "FF5722", "F4511E", "E64A19", "D84315", "BF360C"),
     "Brown":      ("EFEBE9", "D7CCC8", "BCAAA4", "A1887F", "8D6E63", "795548", "6D4C41", "5D4037", "4E342E", "3E2723"),
-    "Grey":       ("90A4AE", "F5F5F5", "EEEEEE", "E0E0E0", "BDBDBD", "9E9E9E", "757575", "616161", "424242", "212121"),
+    "Grey":       ("90A4AE", "F5F5F5", "EEEEEE", "90A4AE", "BDBDBD", "9E9E9E", "757575", "616161", "424242", "212121"),
     "BlueGrey":   ("FAFAFA", "ECEFF1", "CFD8DC", "B0BEC5", "78909C", "607D8B", "546E7A", "455A64", "37474F", "263238"),
 }
 
