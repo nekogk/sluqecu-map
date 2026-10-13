@@ -4,10 +4,21 @@ const mapName = 'sluqecu_map';
 const params = new URLSearchParams(location.search);
 const isEmbed = params.has('embed');
 
-// 다크 기본. ?theme=light 로 라이트 시작 (embed용). 00~03 = 라이트, 04~07 = 다크
-let darkMode = params.get('theme') !== 'light';
+// 테마: 버튼 안 눌림 = 라이트, 눌림 = 다크. 00~03 = 라이트, 04~07 = 다크
+// ?theme=light / ?theme=dark 로 고정 가능 (embed하는 사이트에서 지정). 없으면 시스템 테마를 따름
+const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+const themeParam = params.get('theme');
+const fixedTheme = (themeParam === 'light' || themeParam === 'dark') ? themeParam : null;
+let followSystem = !fixedTheme; // 사용자가 버튼을 누르거나 테마가 지정되면 시스템을 더 이상 따르지 않음
+let darkMode = fixedTheme ? fixedTheme === 'dark' : systemDark.matches;
 const themeOffset = () => darkMode ? 4 : 0;
-document.documentElement.classList.toggle('light', !darkMode);
+
+function applyTheme(dark) {
+    darkMode = dark;
+    document.documentElement.classList.toggle('light', !darkMode);
+    document.getElementById('theme-btn')?.classList.toggle('active', darkMode);
+}
+applyTheme(darkMode);
 const DEFAULT_VIEW = { center: [21504, 36864], zoom: 0 };
 
 function initialView() {
@@ -129,12 +140,32 @@ function toggleTransit(btnElement) {
 }
 
 function toggleTheme(btnElement) {
-    const isActive = btnElement.classList.toggle('active'); // active = 라이트
-    darkMode = !isActive;
-    document.documentElement.classList.toggle('light', !darkMode);
+    followSystem = false;
+    applyTheme(!darkMode); // active = 다크
     updateMapLayers();
 }
-document.getElementById('theme-btn')?.classList.toggle('active', !darkMode);
+
+// 테마가 지정되지 않았고 버튼도 안 눌렀으면, 시스템 테마가 바뀔 때 같이 바뀜
+systemDark.addEventListener('change', e => {
+    if (!followSystem) return;
+    applyTheme(e.matches);
+    updateMapLayers();
+});
+
+// embed: 부모 사이트에서 새로고침 없이 테마 변경
+// iframe.contentWindow.postMessage({ theme: 'dark' }, '*')  // 'light' | 'dark' | 'auto'
+window.addEventListener('message', e => {
+    if (!isEmbed || e.source !== window.parent) return;
+    const theme = e.data && e.data.theme;
+    if (theme === 'light' || theme === 'dark') {
+        followSystem = false;
+        applyTheme(theme === 'dark');
+    } else if (theme === 'auto') {
+        followSystem = true;
+        applyTheme(systemDark.matches);
+    } else return;
+    updateMapLayers();
+});
 
 Promise.all([
     fetch('datas/icon.json').then(res => res.json()),
