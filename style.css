@@ -1,3 +1,15 @@
+:root {
+    --outline: #222222;
+    --label-fg: #ffffff;
+    --btn-icon-filter: brightness(0) invert(1);
+}
+
+:root.light {
+    --outline: #eeeeee;
+    --label-fg: #222222;
+    --btn-icon-filter: brightness(0) invert(0.133);
+}
+
 @font-face {
     font-family: 'La';
     src: url('fonts/Pretendard-Regular.otf') format('opentype');
@@ -26,31 +38,31 @@ body { margin: 0; padding: 0; }
     background: transparent;
     border: none;
     box-shadow: none;
-    color: #ffffff;
+    color: var(--label-fg);
     white-space: nowrap;
     font-family: 'Rm', 'La', 'Sc', sans-serif; 
     text-align: center;
     text-shadow: 
-        0.1rem 0 0 #222222,
-        0.096rem 0.028rem 0 #222222,
-        0.08rem 0.06rem 0 #222222,
-        0.06rem 0.08rem 0 #222222,
-        0.028rem 0.096rem 0 #222222,
-        0 0.1rem 0 #222222,
-        -0.028rem 0.096rem 0 #222222,
-        -0.06rem 0.08rem 0 #222222,
-        -0.08rem 0.06rem 0 #222222,
-        -0.096rem 0.028rem 0 #222222,
-        -0.1rem 0 0 #222222,
-        -0.096rem -0.028rem 0 #222222,
-        -0.08rem -0.06rem 0 #222222,
-        -0.06rem -0.08rem 0 #222222,
-        -0.028rem -0.096rem 0 #222222,
-        0 -0.1rem 0 #222222,
-        0.028rem -0.096rem 0 #222222,
-        0.06rem -0.08rem 0 #222222,
-        0.08rem -0.06rem 0 #222222,
-        0.096rem -0.028rem 0 #222222;
+        0.1rem 0 0 var(--outline),
+        0.096rem 0.028rem 0 var(--outline),
+        0.08rem 0.06rem 0 var(--outline),
+        0.06rem 0.08rem 0 var(--outline),
+        0.028rem 0.096rem 0 var(--outline),
+        0 0.1rem 0 var(--outline),
+        -0.028rem 0.096rem 0 var(--outline),
+        -0.06rem 0.08rem 0 var(--outline),
+        -0.08rem 0.06rem 0 var(--outline),
+        -0.096rem 0.028rem 0 var(--outline),
+        -0.1rem 0 0 var(--outline),
+        -0.096rem -0.028rem 0 var(--outline),
+        -0.08rem -0.06rem 0 var(--outline),
+        -0.06rem -0.08rem 0 var(--outline),
+        -0.028rem -0.096rem 0 var(--outline),
+        0 -0.1rem 0 var(--outline),
+        0.028rem -0.096rem 0 var(--outline),
+        0.06rem -0.08rem 0 var(--outline),
+        0.08rem -0.06rem 0 var(--outline),
+        0.096rem -0.028rem 0 var(--outline);
     white-space: nowrap;
 }
 
@@ -72,17 +84,23 @@ body { margin: 0; padding: 0; }
 }
 
 .map-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-grid;
+    place-items: center;
     flex-shrink: 0;
     margin-right: 0.1rem;
+}
+
+/* 원 svg와 안쪽 아이콘을 같은 칸에 겹쳐서 가운데 정렬 (14/24 크기) */
+.map-icon svg,
+.map-icon .icon-glyph {
+    grid-area: 1 / 1;
 }
 
 .map-icon svg {
     width: 100%;
     height: 100%;
     display: block;
+    fill: var(--outline);
 }
 
 #custom-controls {
@@ -111,6 +129,7 @@ body { margin: 0; padding: 0; }
     width: 100%;
     height: 100%;
     pointer-events: none;
+    filter: var(--btn-icon-filter);
 }
 
 .control-btn:hover { background: rgba(255, 255, 255, 0.2); }

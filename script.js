@@ -3,6 +3,11 @@ const defaultColor = '#ffffff';
 const mapName = 'sluqecu_map';
 const params = new URLSearchParams(location.search);
 const isEmbed = params.has('embed');
+
+// 다크 기본. ?theme=light 로 라이트 시작 (embed용). 00~03 = 라이트, 04~07 = 다크
+let darkMode = params.get('theme') !== 'light';
+const themeOffset = () => darkMode ? 4 : 0;
+document.documentElement.classList.toggle('light', !darkMode);
 const DEFAULT_VIEW = { center: [21504, 36864], zoom: 0 };
 
 function initialView() {
@@ -26,7 +31,7 @@ const zoomThresholdsDisappear = {'m': -2, 'w': -1, 't': 0, 's': 0.5, 'a': 1, 'b'
 const fontSizeThresholds = {'m': '1.4rem', 'w': '1.2rem', 't': '1.0rem', 's': '1.0rem', 'a': '0.8rem', 'b': '0.8rem', 'c': '0.8rem', 'd': '0.8rem', 'e': '0.8rem'};
 const zIndexRanks = {'m': 800, 'w': 700, 's': 600, 'a': 500, 'b': 400, 'c': 300, 'd': 200, 'e': 100};
 
-let currentMapKey = mapName + '00';
+let currentMapKey = mapName + String(themeOffset()).padStart(2, '0');
 let mapOverlay = L.imageOverlay(`maps/${currentMapKey}.svg`, bounds, {pane: 'mapPane'}).addTo(map);
 let markerLayer = L.layerGroup().addTo(map);
 let currentLang = 'ro';
@@ -40,12 +45,12 @@ function buildIconSvg(def) {
     if (!def) return;
     
     const shapeMarkup = def.shape === 'rect'
-        ? `<rect x="2" y="2" width="20" height="20" rx="6" ry="6" fill="currentColor" stroke="#222222" stroke-width="2" />`
-        : `<circle cx="12" cy="12" r="10" fill="currentColor" stroke="#222222" stroke-width="2" />`;
+        ? `<rect x="2" y="2" width="20" height="20" rx="6" ry="6" fill="currentColor" style="stroke:var(--outline)" stroke-width="2" />`
+        : `<circle cx="12" cy="12" r="10" fill="currentColor" style="stroke:var(--outline)" stroke-width="2" />`;
 
     return `<svg viewBox="0 0 24 24" width="24" height="24">
         ${shapeMarkup}
-        <use href="icons/${def.icon}" x="5" y="5" width="14" height="14" />
+    <use href="icons/${def.icon}" x="5" y="5" width="14" height="14" />
     </svg>`;
 }
 
@@ -105,7 +110,7 @@ function renderMarkers() {
 function updateMapLayers() {
     const isZoom = (map.getZoom() < -2);
     if (isEmbed) transitLayer = isZoom ? 0 : 1;
-    const key = mapName + String(isZoom + transitLayer * 2).padStart(2, '0');
+    const key = mapName + String(isZoom + transitLayer * 2 + themeOffset()).padStart(2, '0');
     if (key === currentMapKey) return;
     mapOverlay.setUrl(`maps/${key}.svg`);
     currentMapKey = key;
@@ -122,6 +127,14 @@ function toggleTransit(btnElement) {
     transitLayer = isActive ? 1 : 0;
     updateMapLayers();
 }
+
+function toggleTheme(btnElement) {
+    const isActive = btnElement.classList.toggle('active'); // active = 라이트
+    darkMode = !isActive;
+    document.documentElement.classList.toggle('light', !darkMode);
+    updateMapLayers();
+}
+document.getElementById('theme-btn')?.classList.toggle('active', !darkMode);
 
 Promise.all([
     fetch('datas/icon.json').then(res => res.json()),

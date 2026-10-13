@@ -15,7 +15,7 @@
   "school": {"color": "#8D6E63", "shape": "circle", "icon": "school.svg"},
   "museum": {"color": "#EC407A", "shape": "circle", "icon": "museum.svg"},
   "theater": {"color": "#EC407A", "shape": "circle", "icon": "theater.svg"},
-  "mall": {"color": "#FFEE58", "shape": "circle", "icon": "mall.svg"},
+  "mall": {"color": "#FFCA28", "shape": "circle", "icon": "mall.svg"},
   "restaurant": {"color": "#FFA726", "shape": "circle", "icon": "restaurant.svg"},
   "dining": {"color": "#FFA726", "shape": "circle", "icon": "dining.svg"},
   "cafe": {"color": "#FFA726", "shape": "circle", "icon": "cafe.svg"},
