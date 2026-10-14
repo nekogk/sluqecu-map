@@ -7,11 +7,11 @@
       }
 
       .cls-2 {
-        fill: #90A4AE;
+        fill: #E0E0E0;
       }
 
       .cls-3 {
-        fill: #b0bec5;
+        fill: #cfd8dc;
       }
 
       .cls-4 {
@@ -108,7 +108,7 @@
       }
 
       .cls-14, .cls-15 {
-        stroke: #b0bec5;
+        stroke: #cfd8dc;
       }
 
       .cls-14, .cls-23, .cls-27 {
