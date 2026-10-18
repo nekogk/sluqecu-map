@@ -19,7 +19,7 @@
   {"id": "dechi_railroad_1158", "rank": "b", "icon": "subway", "coords": [22222, 31942], "names": {"ro": "昨産駅", "en": "Rizaseca Station"}},
   {"id": "dechi_railroad_1160", "rank": "b", "icon": "subway", "coords": [20575, 31683], "names": {"ro": "械豆駅", "en": "Mujirica Station"}},
   {"id": "dechi_railroad_1161", "rank": "b", "icon": "subway", "coords": [19923, 32968], "names": {"ro": "矢顔駅", "en": "Pefumigo Station"}},
-  {"id": "dechi_railroad_1162", "rank": "b", "icon": "subway", "coords": [19589, 33920], "names": {"ro": "氏亽万駅", "en": "Cherama Station"}},
+  {"id": "dechi_railroad_1162", "rank": "b", "icon": "subway", "coords": [19589, 33920], "names": {"ro": "氏亽万駅", "en": "Cherema Station"}},
 
   {"id": "dechi_railroad_1219", "rank": "b", "icon": "subway", "coords": [23325, 36928], "names": {"ro": "紫石駅", "en": "Michisri Station"}},
   {"id": "dechi_railroad_1221", "rank": "b", "icon": "subway", "coords": [26932, 37575], "names": {"ro": "影似駅", "en": "Sajerres Station"}},
@@ -104,7 +104,7 @@
   {"id": "sluqecu_metro_232", "rank": "c", "icon": "subway", "coords": [31856, 47998], "names": {"ro": "㭗北駅", "en": "Jifos Station"}},
   {"id": "sluqecu_metro_233", "rank": "c", "icon": "subway", "coords": [30983, 47991], "names": {"ro": "会気駅", "en": "Sanarichi Station"}},
   {"id": "sluqecu_metro_234", "rank": "c", "icon": "subway", "coords": [29966, 47814], "names": {"ro": "藍間駅", "en": "Cazemeye Station"}},
-  {"id": "sluqecu_metro_236", "rank": "b", "icon": "subway", "coords": [28098, 47755], "names": {"ro": "威舞駅", "en": "Xuma Station"}},
+  {"id": "sluqecu_metro_236", "rank": "b", "icon": "subway", "coords": [28098, 47755], "names": {"ro": "威舞駅", "en": "Xwima Station"}},
   {"id": "sluqecu_metro_237", "rank": "c", "icon": "subway", "coords": [27216, 47213], "names": {"ro": "役谷駅", "en": "Resuqesa Station"}},
   {"id": "sluqecu_metro_238", "rank": "b", "icon": "subway", "coords": [27319, 46583], "names": {"ro": "工業広場駅", "en": "Industrial Square Station"}},
   {"id": "sluqecu_metro_239", "rank": "c", "icon": "subway", "coords": [27516, 45334], "names": {"ro": "潮見区庁駅", "en": "Sezomuri District Office Station"}},
