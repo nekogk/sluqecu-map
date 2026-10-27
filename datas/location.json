@@ -293,7 +293,7 @@
  {"id": "sluqecu_shitobu_nijere01", "rank": "s", "coords": [24626, 38163], "names": {"ro": "美琴一番街", "en": "Nijere 1st Street"}},
 
  {"id": "sluqecu_shitobu_nijere02", "rank": "s", "coords": [24781, 37511], "names": {"ro": "美琴二番街", "en": "Nijere 2nd Street"}},
- {"id": "sluqecu_shitobu_nijere02_01_01", "rank": "a", "icon": "park", "coords": [25271, 37536], "names": {"ro": "朝遇公園", "en": "Zaryuda Park"}},
+ {"id": "sluqecu_shitobu_nijere02_01_01", "rank": "a", "icon": "park", "coords": [25271, 37536], "names": {"ro": "朝遇公園", "en": "Zareyu Park"}},
 
  {"id": "sluqecu_shitobu_nijere03", "rank": "s", "coords": [24916, 36865], "names": {"ro": "美琴三番街", "en": "Nijere 3rd Street"}},
  {"id": "sluqecu_shitobu_nijere03_03_02", "rank": "b", "icon": "account", "coords": [25015, 36663], "names": {"ro": "海斗棒区庁", "en": "Shitobu Ward Office"}},
