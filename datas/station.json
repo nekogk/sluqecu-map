@@ -43,7 +43,7 @@
   {"id": "dechi_railroad_2051", "rank": "b", "icon": "subway", "coords": [18649, 33991], "names": {"ro": "納熱駅", "en": "Rujewho Station"}},
   {"id": "dechi_railroad_2052", "rank": "b", "icon": "subway", "coords": [17780, 33237], "names": {"ro": "福畴駅", "en": "Pijizu Station"}},
 
-  {"id": "dechi_railroad_2151", "rank": "b", "icon": "subway", "coords": [18297, 34707], "names": {"ro": "説短駅", "en": "Ejibica Station"}},
+  {"id": "dechi_railroad_2151", "rank": "b", "icon": "subway", "coords": [18297, 34707], "names": {"ro": "説短駅", "en": "Ejise Station"}},
   {"id": "dechi_railroad_2152", "rank": "b", "icon": "subway", "coords": [17067, 35325], "names": {"ro": "八蓮駅", "en": "Sobecalye Station"}},
 
   {"id": "dechi_railroad_2244", "rank": "b", "icon": "subway", "coords": [23358, 29525], "names": {"ro": "同川駅", "en": "Regocheqa Station"}},
