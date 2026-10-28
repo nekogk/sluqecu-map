@@ -26,7 +26,7 @@
  {"id": "sluqecu_resexwa", "rank": "w", "coords": [14907, 38829], "names": {"ro": "仕湾区", "en": "Resexwa Ward"}},
  
  {"id": "sluqecu_dabasha", "rank": "w", "coords": [29303, 24117], "names": {"ro": "分東区", "en": "Dabasha Ward"}},
- {"id": "sluqecu_recadesae", "rank": "w", "coords": [27424, 28997], "names": {"ro": "竜岩区", "en": "Recadesae Ward"}},
+ {"id": "sluqecu_leshisae", "rank": "w", "coords": [27424, 28997], "names": {"ro": "竜岩区", "en": "Leshisae Ward"}},
  {"id": "sluqecu_refabyuxiko", "rank": "w", "coords": [23965, 29731], "names": {"ro": "仮得門区", "en": "Refabyuxiko Ward"}},
 
  {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [36406, 26700], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
@@ -353,17 +353,17 @@
 
  {"id": "sluqecu_resexwa_miqujiter04", "rank": "s", "coords": [14894, 37457], "names": {"ro": "蜜銅四番街", "en": "Miqujiter 4th Street"}},
 
- {"id": "sluqecu_recadesae_cetu", "rank": "t", "coords": [27104, 29526], "names": {"ro": "速院街", "en": "Cetu Street"}},
- {"id": "sluqecu_recadesae_cetu_05_32", "rank": "a", "icon": "hospital", "coords": [26752, 29371], "names": {"ro": "緑大附属病院", "en": "NSU Hospital"}},
- {"id": "sluqecu_recadesae_cetu_05_31", "rank": "d", "icon": "parking", "coords": [26824, 29284], "names": {"ro": "病院駐車棟", "en": "Hospital Parking Tower"}},
- {"id": "sluqecu_recadesae_cetu_03_21", "rank": "b", "icon": "park", "coords": [27379, 29667], "names": {"ro": "緑大公園", "en": "NSU Park"}},
- {"id": "sluqecu_recadesae_cetu_03_34", "rank": "e", "icon": "dining", "coords": [27532, 29889], "names": {"ro": "理大食堂", "en": "Science Cafeteria"}},
- {"id": "sluqecu_recadesae_cetu_03_43", "rank": "e", "icon": "dining", "coords": [27342, 29832], "names": {"ro": "教大食堂", "en": "Education Cafeteria"}},
- {"id": "sluqecu_recadesae_cetu_02_01", "rank": "a", "icon": "school", "coords": [27343, 29298], "names": {"ro": "緑山大斈", "en": "National Sluqecu University"}},
- {"id": "sluqecu_recadesae_cetu_02_08", "rank": "e", "icon": "dining", "coords": [27526, 28918], "names": {"ro": "緑大斈生食堂", "en": "NSU Student's Cafeteria"}},
- {"id": "sluqecu_recadesae_cetu_02_14", "rank": "c", "icon": "library", "coords": [27536, 29052], "names": {"ro": "緑大中巻舘", "en": "NSU Central Library"}},
- {"id": "sluqecu_recadesae_cetu_02_25", "rank": "c", "icon": "museum", "coords": [27478, 29406], "names": {"ro": "緑大博物舘", "en": "NSU Museum"}},
- {"id": "sluqecu_recadesae_cetu_02_36", "rank": "c", "icon": "theater", "coords": [27291, 29299], "names": {"ro": "速院露天剧堂", "en": "Cetu Outdoor Theater"}},
+ {"id": "sluqecu_leshisae_cetu", "rank": "t", "coords": [27104, 29526], "names": {"ro": "速院街", "en": "Cetu Street"}},
+ {"id": "sluqecu_leshisae_cetu_05_32", "rank": "a", "icon": "hospital", "coords": [26752, 29371], "names": {"ro": "緑大附属病院", "en": "NSU Hospital"}},
+ {"id": "sluqecu_leshisae_cetu_05_31", "rank": "d", "icon": "parking", "coords": [26824, 29284], "names": {"ro": "病院駐車棟", "en": "Hospital Parking Tower"}},
+ {"id": "sluqecu_leshisae_cetu_03_21", "rank": "b", "icon": "park", "coords": [27379, 29667], "names": {"ro": "緑大公園", "en": "NSU Park"}},
+ {"id": "sluqecu_leshisae_cetu_03_34", "rank": "e", "icon": "dining", "coords": [27532, 29889], "names": {"ro": "理大食堂", "en": "Science Cafeteria"}},
+ {"id": "sluqecu_leshisae_cetu_03_43", "rank": "e", "icon": "dining", "coords": [27342, 29832], "names": {"ro": "教大食堂", "en": "Education Cafeteria"}},
+ {"id": "sluqecu_leshisae_cetu_02_01", "rank": "a", "icon": "school", "coords": [27343, 29298], "names": {"ro": "緑山大斈", "en": "National Sluqecu University"}},
+ {"id": "sluqecu_leshisae_cetu_02_08", "rank": "e", "icon": "dining", "coords": [27526, 28918], "names": {"ro": "緑大斈生食堂", "en": "NSU Student's Cafeteria"}},
+ {"id": "sluqecu_leshisae_cetu_02_14", "rank": "c", "icon": "library", "coords": [27536, 29052], "names": {"ro": "緑大中巻舘", "en": "NSU Central Library"}},
+ {"id": "sluqecu_leshisae_cetu_02_25", "rank": "c", "icon": "museum", "coords": [27478, 29406], "names": {"ro": "緑大博物舘", "en": "NSU Museum"}},
+ {"id": "sluqecu_leshisae_cetu_02_36", "rank": "c", "icon": "theater", "coords": [27291, 29299], "names": {"ro": "速院露天剧堂", "en": "Cetu Outdoor Theater"}},
  
  {"id": "sluqecu_refabyuxiko_shixicache", "rank": "t", "coords": [23254, 28660], "names": {"ro": "恩原街", "en": "Shixicache Street"}},
  
