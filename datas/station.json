@@ -60,7 +60,7 @@
   {"id": "dechi_railroad_2261", "rank": "b", "icon": "subway", "coords": [14897, 48188], "names": {"ro": "海北駅", "en": "Semerube Station"}},
 
   {"id": "sluqecu_metro_118", "rank": "c", "icon": "subway", "coords": [38349, 25800], "names": {"ro": "延曲駅", "en": "Cezkawa Park Station"}},
-  {"id": "sluqecu_metro_120", "rank": "b", "icon": "subway", "coords": [37486, 25858], "names": {"ro": "烏法駅", "en": "Pejiz Station"}},
+  {"id": "sluqecu_metro_120", "rank": "b", "icon": "subway", "coords": [37486, 25858], "names": {"ro": "推法駅", "en": "Sejijiz Station"}},
   {"id": "sluqecu_metro_121", "rank": "b", "icon": "subway", "coords": [36535, 25923], "names": {"ro": "卯場駅", "en": "Mezuchisa Station"}},
   {"id": "sluqecu_metro_122", "rank": "b", "icon": "subway", "coords": [35744, 25975], "names": {"ro": "承岳駅", "en": "Socesayu Station"}},
   {"id": "sluqecu_metro_123", "rank": "c", "icon": "subway", "coords": [34903, 25870], "names": {"ro": "踏光駅", "en": "Yowhori Station"}},
