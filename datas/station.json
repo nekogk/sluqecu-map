@@ -391,7 +391,7 @@
   {"id": "sluqecu_lrt_pm39", "rank": "c", "icon": "subway", "coords": [23153, 38831], "names": {"ro": "瑞千駅", "en": "Jochi Station"}},
   {"id": "sluqecu_lrt_pm37", "rank": "c", "icon": "subway", "coords": [22727, 39743], "names": {"ro": "三日二番街駅", "en": "Lesawez 2nd Street Station"}},
   {"id": "sluqecu_lrt_pm35", "rank": "c", "icon": "subway", "coords": [22538, 40855], "names": {"ro": "三日四番街駅", "en": "Lesawez 4th Street Station"}},
-  {"id": "sluqecu_lrt_pm34", "rank": "c", "icon": "subway", "coords": [22646, 41350], "names": {"ro": "活麻画駅", "en": "Katumeghe Station"}},
+  {"id": "sluqecu_lrt_pm34", "rank": "c", "icon": "subway", "coords": [22646, 41350], "names": {"ro": "活麻画駅", "en": "Nemeghe Station"}},
   {"id": "sluqecu_lrt_pm32", "rank": "c", "icon": "subway", "coords": [23005, 42620], "names": {"ro": "延江公園駅", "en": "Ectene Park Station"}},
 
   {"id": "sluqecu_lrt_ln48", "rank": "c", "icon": "subway", "coords": [32014, 31062], "names": {"ro": "宿円駅", "en": "Mesujesa Station" }},
