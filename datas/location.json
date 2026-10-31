@@ -29,7 +29,7 @@
  {"id": "sluqecu_yopesae", "rank": "w", "coords": [27424, 28997], "names": {"ro": "竜岩区", "en": "Yopesae Ward"}},
  {"id": "sluqecu_refabyuxiko", "rank": "w", "coords": [23965, 29731], "names": {"ro": "仮得門区", "en": "Refabyuxiko Ward"}},
 
- {"id": "sluqecu_mezuchisa", "rank": "w", "coords": [36406, 26700], "names": {"ro": "卯場区", "en": "Mezuchisa Ward"}},
+ {"id": "sluqecu_zorizuchisa ", "rank": "w", "coords": [36406, 26700], "names": {"ro": "卯場区", "en": "Zorizuchisa Ward"}},
  {"id": "sluqecu_sechicaspe", "rank": "w", "coords": [33987, 23448], "names": {"ro": "済座区", "en": "Sechicaspe Ward"}},
  {"id": "sluqecu_tozeshita", "rank": "w", "coords": [32138, 30000], "names": {"ro": "乗怠区", "en": "Tozeshita Ward"}},
 
