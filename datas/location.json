@@ -84,7 +84,7 @@
  {"id": "sluqecu_shishices_yurimixi_02_07", "rank": "c", "icon": "library", "coords": [24055, 35866], "names": {"ro": "石原卷館", "en": "Sricache Library"}},
 
  {"id": "sluqecu_shishices_saribegher", "rank": "t", "coords": [22979, 35911], "names": {"ro": "長平街", "en": "Saribegher Street"}},
- {"id": "sluqecu_shishices_saribegher_02_25", "rank": "b", "icon": "school", "coords": [23424, 36105], "names": {"ro": "流川中斈", "en": "Shibucheqa High School"}},
+ {"id": "sluqecu_shishices_saribegher_02_25", "rank": "b", "icon": "school", "coords": [23424, 36105], "names": {"ro": "流川中斈", "en": "Sebucheqa High School"}},
  {"id": "sluqecu_shishices_saribegher_02_26", "rank": "b", "icon": "school", "coords": [23384, 36240], "names": {"ro": "旧来小斈", "en": "Yurimixi Elementary School"}},
  
  {"id": "sluqecu_shishices_michisri01", "rank": "s", "coords": [23472, 36703], "names": {"ro": "紫石一番街", "en": "Michisri 1st Street"}},
@@ -103,7 +103,7 @@
  {"id": "sluqecu_shishices_yuwhez01_02_27", "rank": "c", "icon": "fire", "coords": [22186, 37413], "names": {"ro": "中部消防署", "en": "Central Fire Station"}},
  
  {"id": "sluqecu_shishices_yuwhez02", "rank": "s", "coords": [22068, 36898], "names": {"ro": "灰降二番街", "en": "Yuwhez 2nd Street"}},
- {"id": "sluqecu_shishices_yuwhez02_01_01", "rank": "a", "icon": "park", "coords": [22430, 37024], "names": {"ro": "流川公園", "en": "Shibucheqa Park"}},
+ {"id": "sluqecu_shishices_yuwhez02_01_01", "rank": "a", "icon": "park", "coords": [22430, 37024], "names": {"ro": "流川公園", "en": "Sebucheqa Park"}},
  
  {"id": "sluqecu_shishices_yuwhez03", "rank": "s", "coords": [22011, 36027], "names": {"ro": "灰降三番街", "en": "Yuwhez 3rd Street"}},
  {"id": "sluqecu_shishices_yuwhez03_01_13", "rank": "b", "icon": "star", "coords": [22144, 35874], "names": {"ro": "三円団地", "en": "Lesajesa Complex"}},

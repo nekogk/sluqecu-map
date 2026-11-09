@@ -85,7 +85,7 @@
   {"id": "sluqecu_metro_144", "rank": "b", "icon": "subway", "coords": [26158, 37354], "names": {"ro": "難六駅", "en": "Jijifulu Station"}},
   {"id": "sluqecu_metro_145", "rank": "c", "icon": "subway", "coords": [25572, 37286], "names": {"ro": "朝遇駅", "en": "Zaryuda Station"}},
   {"id": "sluqecu_metro_147", "rank": "b", "icon": "subway", "coords": [24158, 37125], "names": {"ro": "東幸駅", "en": "Toxyani Station"}},
-  {"id": "sluqecu_metro_149", "rank": "c", "icon": "subway", "coords": [22643, 37129], "names": {"ro": "流川駅", "en": "Shibucheqa Station"}},
+  {"id": "sluqecu_metro_149", "rank": "c", "icon": "subway", "coords": [22643, 37129], "names": {"ro": "流川駅", "en": "Sebucheqa Station"}},
   {"id": "sluqecu_metro_150", "rank": "b", "icon": "subway", "coords": [21646, 36713], "names": {"ro": "京庁駅", "en": "Metropolitan City Hall Station"}},
   {"id": "sluqecu_metro_152", "rank": "c", "icon": "subway", "coords": [20417, 36516], "names": {"ro": "玄臨宮駅", "en": "Gyru Palace Station"}},
   {"id": "sluqecu_metro_154", "rank": "c", "icon": "subway", "coords": [19451, 35613], "names": {"ro": "偉風駅", "en": "Rewesuwhu Station"}},
