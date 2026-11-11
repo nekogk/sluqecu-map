@@ -172,7 +172,7 @@
  {"id": "sluqecu_miseme_dawhecache", "rank": "t", "coords": [19214, 36434], "names": {"ro": "赤原街", "en": "Dawhecache Street"}},
 
  {"id": "sluqecu_miseme_lesacasha", "rank": "t", "coords": [18975, 37414], "names": {"ro": "三屋街", "en": "Lesacasha Street"}},
- {"id": "sluqecu_miseme_lesacasha_05_01", "rank": "a", "icon": "park", "coords": [19041, 37708], "names": {"ro": "三家公園", "en": "Lesacasha Park"}},
+ {"id": "sluqecu_miseme_lesacasha_05_01", "rank": "a", "icon": "park", "coords": [19041, 37708], "names": {"ro": "三屋公園", "en": "Lesacasha Park"}},
  {"id": "sluqecu_miseme_lesacasha_05_02", "rank": "c", "icon": "museum", "coords": [18991, 37641], "names": {"ro": "重㦮院", "en": "House of Cooper"}},
 
  {"id": "sluqecu_miseme_daxilicec", "rank": "t", "coords": [19262, 38807], "names": {"ro": "重手街", "en": "Daxilicec Street"}},
