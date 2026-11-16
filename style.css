@@ -17,22 +17,17 @@
 @font-face {
     font-family: 'La';
     src: url('fonts/Pretendard-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
     font-family: 'Sc';
     src: url('fonts/NotoSansSC-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  unicode-range: U+3400-4DBF, U+4E00-9FFF;
 }
 
 @font-face {
     font-family: 'Rm';
     src: url('fonts/RusimezSans.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body { margin: 0; padding: 0; }
@@ -44,7 +39,7 @@ body { margin: 0; padding: 0; }
     box-shadow: none;
     color: var(--label-fg);
     white-space: nowrap;
-    font-family: 'Rm', 'La', 'Sc', sans-serif; 
+    font-family: 'Rm', 'Sc', 'La', sans-serif; 
     text-align: center;
     text-shadow: 
         0.1rem 0 0 var(--outline),
