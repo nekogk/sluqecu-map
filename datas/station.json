@@ -58,9 +58,9 @@
   {"id": "hayane_railroad_22502", "rank": "b", "icon": "subway", "coords": [21348, 38281], "names": {"ro": "七価駅", "en": "Mireya Station"}},
   {"id": "hayane_railroad_22503", "rank": "b", "icon": "subway", "coords": [20690, 38748], "names": {"ro": "刺端駅", "en": "Dajarisa Station"}},
   {"id": "hayane_railroad_22504", "rank": "b", "icon": "subway", "coords": [20364, 39890], "names": {"ro": "新照駅", "en": "Zjiwheza Station"}},
-  {"id": "hayane_railroad_22505", "rank": "b", "icon": "subway", "coords": [20077, 41797], "names": {"ro": "電田駅", "en": "Isteba Station"}},
-  {"id": "hayane_railroad_22508", "rank": "b", "icon": "subway", "coords": [18634, 47121], "names": {"ro": "駅", "en": "Yujaseme Station"}},
-  {"id": "hayane_railroad_22511", "rank": "b", "icon": "subway", "coords": [14897, 48188], "names": {"ro": "海北駅", "en": "Semerube Station"}},
+  {"id": "hayane_railroad_22505", "rank": "b", "icon": "subway", "coords": [20029, 41801], "names": {"ro": "電田駅", "en": "Isteba Station"}},
+  {"id": "hayane_railroad_22508", "rank": "b", "icon": "subway", "coords": [18620, 47257], "names": {"ro": "駅", "en": "Yujaseme Station"}},
+  {"id": "hayane_railroad_22511", "rank": "b", "icon": "subway", "coords": [15253, 48233], "names": {"ro": "海北駅", "en": "Semerube Station"}},
 
   {"id": "sluqecu_metro_119", "rank": "c", "icon": "subway", "coords": [38349, 25800], "names": {"ro": "延曲駅", "en": "Cezkawa Station"}},
   {"id": "sluqecu_metro_120", "rank": "b", "icon": "subway", "coords": [37486, 25858], "names": {"ro": "推法駅", "en": "Sejijiz Station"}},
@@ -240,7 +240,7 @@
   {"id": "sluqecu_metro_564", "rank": "c", "icon": "subway", "coords": [18420, 43379], "names": {"ro": "灰志駅", "en": "Yuwhezshi Station"}},
   {"id": "sluqecu_metro_565", "rank": "c", "icon": "subway", "coords": [18504, 44307], "names": {"ro": "量逰駅", "en": "Koxilisez Station"}},
   {"id": "sluqecu_metro_566", "rank": "c", "icon": "subway", "coords": [18580, 45285], "names": {"ro": "减蛍駅", "en": "Bisecer Station"}},
-  {"id": "sluqecu_metro_567", "rank": "c", "icon": "subway", "coords": [18629, 46130], "names": {"ro": "灰霧駅", "en": "Yuwheyu Station"}},
+  {"id": "sluqecu_metro_567", "rank": "c", "icon": "subway", "coords": [18629, 46293], "names": {"ro": "灰霧駅", "en": "Yuwheyu Station"}},
   {"id": "sluqecu_metro_569", "rank": "c", "icon": "subway", "coords": [18639, 48212], "names": {"ro": "公園駅", "en": "Yujaseme Park Station"}},
   {"id": "sluqecu_metro_570", "rank": "c", "icon": "subway", "coords": [18769, 49459], "names": {"ro": "平海駅", "en": "Begheseme Station"}},
 
