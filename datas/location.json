@@ -345,7 +345,7 @@
  {"id": "sluqecu_pijizu_rujewho04", "rank": "s", "coords": [19103, 32282], "names": {"ro": "納熱四番街", "en": "Rujewho 4th Street"}},
 
  {"id": "sluqecu_pijizu_whano", "rank": "t", "coords": [17582, 34524], "names": {"ro": "花南街", "en": "Whano Street"}},
- {"id": "sluqecu_pijizu_whano_04_14", "rank": "a", "icon": "factory", "coords": [17467, 34868], "names": {"ro": "説短車輌基地", "en": "Ejibica Depot"}},
+ {"id": "sluqecu_pijizu_whano_04_14", "rank": "b", "icon": "factory", "coords": [17467, 34868], "names": {"ro": "説短車輌基地", "en": "Ejibica Depot"}},
 
  {"id": "sluqecu_resexwa_rewereshu", "rank": "t", "coords": [16310, 37201], "names": {"ro": "偉袖街", "en": "Rewereshu Street"}},
  {"id": "sluqecu_resexwa_rewereshu_01_01", "rank": "a", "icon": "park", "coords": [16231, 37446], "names": {"ro": "公園", "en": "Shose Park"}},
