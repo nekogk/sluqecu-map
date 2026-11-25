@@ -8,6 +8,7 @@
   "police": { "color": "#BDBDBD", "shape": "circle", "icon": "police.svg"},
   "atm": {"color": "#BDBDBD", "shape": "circle", "icon": "atm.svg"},
   "business": {"color": "#BDBDBD", "shape": "circle", "icon": "business.svg"},
+  "factory": {"color": "#BDBDBD", "shape": "circle", "icon": "factory.svg"},
   "subway": {"color": "#42A5F5", "shape": "rect", "icon": "subway.svg"},
   "train": {"color": "#42A5F5", "shape": "rect", "icon": "train.svg"},
   "bus": {"color": "#42A5F5", "shape": "rect", "icon": "bus.svg"},
