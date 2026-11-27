@@ -19,7 +19,7 @@
   {"id": "hayane_railroad_11504", "rank": "b", "icon": "subway", "coords": [26386, 32188], "names": {"ro": "味液駅", "en": "Kowise Station"}},
   {"id": "hayane_railroad_11505", "rank": "b", "icon": "subway", "coords": [25110, 32106], "names": {"ro": "図絡駅", "en": "Daraji Station"}},
   {"id": "hayane_railroad_11506", "rank": "b", "icon": "subway", "coords": [23945, 31867], "names": {"ro": "仮得門駅", "en": "Refabyuxiko Station"}},
-  {"id": "hayane_railroad_11507", "rank": "b", "icon": "subway", "coords": [23124, 31664], "names": {"ro": "夕下駅", "en": "Shisha Station"}},
+  {"id": "hayane_railroad_11507", "rank": "b", "icon": "subway", "coords": [23124, 31664], "names": {"ro": "更企駅", "en": "Yurezu Station"}},
   {"id": "hayane_railroad_11508", "rank": "b", "icon": "subway", "coords": [22222, 31942], "names": {"ro": "昨産駅", "en": "Rizaseca Station"}},
   {"id": "hayane_railroad_11509", "rank": "b", "icon": "subway", "coords": [21359, 31789], "names": {"ro": "段䋲駅", "en": "Domiso Station"}},
   {"id": "hayane_railroad_11510", "rank": "b", "icon": "subway", "coords": [20575, 31683], "names": {"ro": "械豆駅", "en": "Mujirica Station"}},
@@ -364,7 +364,6 @@
   {"id": "sluqecu_metro_1245", "rank": "c", "icon": "subway", "coords": [34491, 38096], "names": {"ro": "長春駅", "en": "Saririter Station"}},
   {"id": "sluqecu_metro_1247", "rank": "b", "icon": "subway", "coords": [33195, 37446], "names": {"ro": "史公園駅", "en": "Historical Park Station"}},
 
-  {"id": "sluqecu_lrt_hr32", "rank": "c", "icon": "subway", "coords": [28002, 29805], "names": {"ro": "発棒駅", "en": "Bokamufu Station"}},
   {"id": "sluqecu_lrt_hr33", "rank": "c", "icon": "subway", "coords": [27282, 30045], "names": {"ro": "緑大後門駅", "en": "NSU West Gate Station"}},
   {"id": "sluqecu_lrt_hr42", "rank": "c", "icon": "subway", "coords": [23503, 33289], "names": {"ro": "汽入駅", "en": "Sechiru Station"}},
   {"id": "sluqecu_lrt_hr43", "rank": "b", "icon": "subway", "coords": [23323, 34023], "names": {"ro": "合間駅", "en": "Gobiker Station"}},
@@ -397,5 +396,6 @@
   {"id": "sluqecu_lrt_pm32", "rank": "c", "icon": "subway", "coords": [23005, 42620], "names": {"ro": "延江公園駅", "en": "Ectene Park Station"}},
 
   {"id": "sluqecu_lrt_ln48", "rank": "c", "icon": "subway", "coords": [32014, 31062], "names": {"ro": "宿円駅", "en": "Mesujesa Station" }},
-  {"id": "sluqecu_lrt_ln63", "rank": "c", "icon": "subway", "coords": [26304, 36888], "names": {"ro": "海斗棒駅", "en": "Shitobu Station"}}
+  {"id": "sluqecu_lrt_ln63", "rank": "c", "icon": "subway", "coords": [26304, 36888], "names": {"ro": "海斗棒駅", "en": "Shitobu Station"}},
+  {"id": "sluqecu_lrt_hr32", "rank": "c", "icon": "subway", "coords": [27779, 31818], "names": {"ro": "発棒駅", "en": "Bokamufu Station"}}
 ]
