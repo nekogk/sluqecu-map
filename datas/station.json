@@ -372,7 +372,7 @@
   {"id": "sluqecu_metro_1266", "rank": "c", "icon": "subway", "coords": [15393, 37838], "names": {"ro": "散漠駅", "en": "Pismo Station"}},
   {"id": "sluqecu_metro_1268", "rank": "b", "icon": "subway", "coords": [14388, 38500], "names": {"ro": "態莫駅", "en": "Remari Station"}},
 
-  {"id": "sluqecu_metro_1350", "rank": "b", "icon": "subway", "coords": [33195, 37446], "names": {"ro": "史公園駅", "en": "Historical Park Station"}},
+  {"id": "sluqecu_metro_1350", "rank": "b", "icon": "subway", "coords": [33195, 37446], "names": {"ro": "歴史公園駅", "en": "Historical Park Station"}},
   {"id": "sluqecu_metro_1361", "rank": "c", "icon": "subway", "coords": [27779, 31818], "names": {"ro": "発棒駅", "en": "Bokamufu Station"}},
 
   {"id": "sluqecu_metro_1448", "rank": "c", "icon": "subway", "coords": [34491, 38096], "names": {"ro": "長春駅", "en": "Saririter Station"}},
